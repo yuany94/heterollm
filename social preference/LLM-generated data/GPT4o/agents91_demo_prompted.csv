@@ -1,0 +1,3974 @@
+,response1,subjectID,age,gender,numberofsiblings,gamestrategy
+0,"{
+    ""subjectID"": ""abc12345"",
+    ""age"": 29,
+    ""gender"": ""female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""organization"": ""Red Cross"",
+            ""amount"": 50,
+            ""date"": ""2022-01-15""
+        },
+        {
+            ""organization"": ""Local Food Bank"",
+            ""amount"": 30,
+            ""date"": ""2022-08-10""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": 1,
+            ""role"": ""A"",
+            ""decision"": ""cooperate""
+        },
+        {
+            ""game"": 2,
+            ""role"": ""B"",
+            ""decision"": ""match partner's previous choice""
+        },
+        {
+            ""game"": 3,
+            ""role"": ""A"",
+            ""decision"": ""take risk""
+        },
+        {
+            ""game"": 4,
+            ""role"": ""B"",
+            ""decision"": ""optimize for self-interest""
+        },
+        {
+            ""game"": 5,
+            ""role"": ""A"",
+            ""decision"": ""negotiate""
+        },
+        {
+            ""game"": 6,
+            ""role"": ""B"",
+            ""decision"": ""trust partner""
+        },
+        {
+            ""game"": 7,
+            ""role"": ""A"",
+            ""decision"": ""consider fairness""
+        }
+    ]
+}",abc12345,29,female,2,"[{'game': 1, 'role': 'A', 'decision': 'cooperate'}, {'game': 2, 'role': 'B', 'decision': ""match partner's previous choice""}, {'game': 3, 'role': 'A', 'decision': 'take risk'}, {'game': 4, 'role': 'B', 'decision': 'optimize for self-interest'}, {'game': 5, 'role': 'A', 'decision': 'negotiate'}, {'game': 6, 'role': 'B', 'decision': 'trust partner'}, {'game': 7, 'role': 'A', 'decision': 'consider fairness'}]"
+1,"{
+  ""subjectID"": ""AB123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-01-15""
+    },
+    {
+      ""organization"": ""Doctors Without Borders"",
+      ""amount"": 30,
+      ""date"": ""2022-05-20""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 40,
+      ""date"": ""2023-03-10""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Match opponent's decision""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Maximize personal gain""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Tit-for-tat""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Fair split""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Random choice""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Altruistic""
+    }
+  ]
+}",AB123456,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': ""Match opponent's decision""}, {'game': 3, 'role': 'A', 'decision': 'Maximize personal gain'}, {'game': 4, 'role': 'B', 'decision': 'Tit-for-tat'}, {'game': 5, 'role': 'A', 'decision': 'Fair split'}, {'game': 6, 'role': 'B', 'decision': 'Random choice'}, {'game': 7, 'role': 'A', 'decision': 'Altruistic'}]"
+2,"{
+  ""subjectID"": ""participant_12458"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""date"": ""2021-05-15"",
+      ""amount"": 50,
+      ""organization"": ""Red Cross""
+    },
+    {
+      ""date"": ""2022-11-20"",
+      ""amount"": 75,
+      ""organization"": ""World Wildlife Fund""
+    }
+  ],
+  ""strategy"": {
+    ""Game1"": ""Tit-for-Tat"",
+    ""Game2"": ""Cooperative"",
+    ""Game3"": ""Randomized"",
+    ""Game4"": ""Risk-Averse"",
+    ""Game5"": ""Altruistic"",
+    ""Game6"": ""Competitive"",
+    ""Game7"": ""Tit-for-Tat""
+  }
+}",participant_12458,29,female,2,"{'Game1': 'Tit-for-Tat', 'Game2': 'Cooperative', 'Game3': 'Randomized', 'Game4': 'Risk-Averse', 'Game5': 'Altruistic', 'Game6': 'Competitive', 'Game7': 'Tit-for-Tat'}"
+3,"{
+  ""subjectID"": ""P12345"",
+  ""age"": 30,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""amount"": 50,
+      ""year"": 2022,
+      ""organization"": ""Cancer Research Institute""
+    },
+    {
+      ""amount"": 30,
+      ""year"": 2021,
+      ""organization"": ""Wildlife Conservation Network""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Ultimatum"",
+      ""role"": ""A"",
+      ""decision"": ""Offer 40% of the total amount to B""
+    },
+    {
+      ""game"": ""Trust"",
+      ""role"": ""B"",
+      ""decision"": ""Return 50% of the tripled amount to A""
+    },
+    {
+      ""game"": ""Public Goods"",
+      ""role"": ""A"",
+      ""decision"": ""Contribute 20% of the initial endowment to the public pot""
+    },
+    {
+      ""game"": ""Dictator"",
+      ""role"": ""A"",
+      ""decision"": ""Give 10% of the total amount to B""
+    },
+    {
+      ""game"": ""Prisoner's Dilemma"",
+      ""role"": ""B"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Battle of the Sexes"",
+      ""role"": ""A"",
+      ""decision"": ""Choose Movie option""
+    },
+    {
+      ""game"": ""Stag Hunt"",
+      ""role"": ""A"",
+      ""decision"": ""Hunt the stag""
+    }
+  ]
+}",P12345,30,Female,2,"[{'game': 'Ultimatum', 'role': 'A', 'decision': 'Offer 40% of the total amount to B'}, {'game': 'Trust', 'role': 'B', 'decision': 'Return 50% of the tripled amount to A'}, {'game': 'Public Goods', 'role': 'A', 'decision': 'Contribute 20% of the initial endowment to the public pot'}, {'game': 'Dictator', 'role': 'A', 'decision': 'Give 10% of the total amount to B'}, {'game': ""Prisoner's Dilemma"", 'role': 'B', 'decision': 'Cooperate'}, {'game': 'Battle of the Sexes', 'role': 'A', 'decision': 'Choose Movie option'}, {'game': 'Stag Hunt', 'role': 'A', 'decision': 'Hunt the stag'}]"
+4,"{
+  ""subjectID"": ""participant_12345"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""date"": ""2022-01-15"",
+      ""amount"": 50,
+      ""organization"": ""Red Cross""
+    },
+    {
+      ""date"": ""2023-05-10"",
+      ""amount"": 100,
+      ""organization"": ""World Wildlife Fund""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Game 1"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Believes in the potential for mutual benefit through cooperation.""
+    },
+    {
+      ""game"": ""Game 2"",
+      ""role"": ""B"",
+      ""decision"": ""Match partner's previous move"",
+      ""rationale"": ""Supports a tit-for-tat strategy to encourage positive behavior.""
+    },
+    {
+      ""game"": ""Game 3"",
+      ""role"": ""A"",
+      ""decision"": ""Altruistic"",
+      ""rationale"": ""Preference for giving even at a personal cost.""
+    }
+  ]
+}",participant_12345,29,Female,2,"[{'game': 'Game 1', 'role': 'A', 'decision': 'Cooperate', 'rationale': 'Believes in the potential for mutual benefit through cooperation.'}, {'game': 'Game 2', 'role': 'B', 'decision': ""Match partner's previous move"", 'rationale': 'Supports a tit-for-tat strategy to encourage positive behavior.'}, {'game': 'Game 3', 'role': 'A', 'decision': 'Altruistic', 'rationale': 'Preference for giving even at a personal cost.'}]"
+5,"{
+    ""subjectID"": ""P123456"",
+    ""age"": 29,
+    ""gender"": ""female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""date"": ""2022-03-15"",
+            ""amount"": 50,
+            ""organization"": ""Red Cross""
+        },
+        {
+            ""date"": ""2022-06-10"",
+            ""amount"": 30,
+            ""organization"": ""World Wildlife Fund""
+        },
+        {
+            ""date"": ""2023-01-05"",
+            ""amount"": 25,
+            ""organization"": ""Doctors Without Borders""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": ""Trust Game"",
+            ""role"": ""A"",
+            ""strategy"": ""always trust and send 50%""
+        },
+        {
+            ""game"": ""Ultimatum Game"",
+            ""role"": ""B"",
+            ""strategy"": ""accept any offer above 20%""
+        },
+        {
+            ""game"": ""Public Goods Game"",
+            ""role"": ""participant"",
+            ""strategy"": ""contribute 40%""
+        },
+        {
+            ""game"": ""Dictator Game"",
+            ""role"": ""A"",
+            ""strategy"": ""give 30%""
+        },
+        {
+            ""game"": ""Prisoner's Dilemma"",
+            ""role"": ""A"",
+            ""strategy"": ""cooperate unless betrayed in a previous sequential interaction""
+        },
+        {
+            ""game"": ""Stag Hunt"",
+            ""role"": ""A"",
+            ""strategy"": ""hunt stag if partner's history suggests cooperation; otherwise, hunt hare""
+        },
+        {
+            ""game"": ""Coordination Game"",
+            ""role"": ""A"",
+            ""strategy"": ""choose option A if it maximizes total payoffs""
+        }
+    ]
+}",P123456,29,female,2,"[{'game': 'Trust Game', 'role': 'A', 'strategy': 'always trust and send 50%'}, {'game': 'Ultimatum Game', 'role': 'B', 'strategy': 'accept any offer above 20%'}, {'game': 'Public Goods Game', 'role': 'participant', 'strategy': 'contribute 40%'}, {'game': 'Dictator Game', 'role': 'A', 'strategy': 'give 30%'}, {'game': ""Prisoner's Dilemma"", 'role': 'A', 'strategy': 'cooperate unless betrayed in a previous sequential interaction'}, {'game': 'Stag Hunt', 'role': 'A', 'strategy': ""hunt stag if partner's history suggests cooperation; otherwise, hunt hare""}, {'game': 'Coordination Game', 'role': 'A', 'strategy': 'choose option A if it maximizes total payoffs'}]"
+6,"{
+  ""subjectID"": ""A12345678"",
+  ""age"": 30,
+  ""gender"": ""Non-Binary"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalAmount"": 500,
+    ""history"": [
+      {
+        ""amount"": 100,
+        ""charity"": ""Red Cross"",
+        ""date"": ""2022-01-15""
+      },
+      {
+        ""amount"": 150,
+        ""charity"": ""UNICEF"",
+        ""date"": ""2022-05-23""
+      },
+      {
+        ""amount"": 250,
+        ""charity"": ""Doctors Without Borders"",
+        ""date"": ""2023-03-30""
+      }
+    ]
+  },
+  ""strategy"": {
+    ""tit_for_tat"": true,
+    ""random"": false,
+    ""cooperative"": true,
+    ""aggressive"": false
+  }
+}",A12345678,30,Non-Binary,2,"{'tit_for_tat': True, 'random': False, 'cooperative': True, 'aggressive': False}"
+7,"{
+  ""subjectID"": ""abc123"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Local Animal Shelter"",
+      ""amount"": 50,
+      ""date"": ""2022-05-15""
+    },
+    {
+      ""organization"": ""Cancer Research Foundation"",
+      ""amount"": 20,
+      ""date"": ""2023-03-03""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Match A's decision""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate A's decision""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Trust""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Honor Trust""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Maximize own payoff""
+    }
+  ]
+}",abc123,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': ""Match A's decision""}, {'game': 3, 'role': 'A', 'decision': 'Defect'}, {'game': 4, 'role': 'B', 'decision': ""Reciprocate A's decision""}, {'game': 5, 'role': 'A', 'decision': 'Trust'}, {'game': 6, 'role': 'B', 'decision': 'Honor Trust'}, {'game': 7, 'role': 'A', 'decision': 'Maximize own payoff'}]"
+8,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""amount"": 25,
+      ""to"": ""Charity A"",
+      ""date"": ""2022-05-15""
+    },
+    {
+      ""amount"": 50,
+      ""to"": ""Charity B"",
+      ""date"": ""2023-01-22""
+    }
+  ],
+  ""strategy"": {
+    ""game1"": ""Tit-for-Tat"",
+    ""game2"": ""Random"",
+    ""game3"": ""Cooperative"",
+    ""game4"": ""Competitive"",
+    ""game5"": ""Risk-Averse"",
+    ""game6"": ""Altruistic"",
+    ""game7"": ""Self-Interested""
+  }
+}",P123456,29,female,2,"{'game1': 'Tit-for-Tat', 'game2': 'Random', 'game3': 'Cooperative', 'game4': 'Competitive', 'game5': 'Risk-Averse', 'game6': 'Altruistic', 'game7': 'Self-Interested'}"
+9,"{
+  ""subjectID"": ""P0123456"",
+  ""age"": 27,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-03-15""
+    },
+    {
+      ""organization"": ""UNICEF"",
+      ""amount"": 30,
+      ""date"": ""2022-09-22""
+    }
+  ],
+  ""strategy"": {
+    ""game1"": ""Tit for Tat"",
+    ""game2"": ""Random"",
+    ""game3"": ""Always Cooperate"",
+    ""game4"": ""Grim Trigger"",
+    ""game5"": ""Tit for Tat"",
+    ""game6"": ""Always Defect"",
+    ""game7"": ""Random""
+  }
+}",P0123456,27,Female,2,"{'game1': 'Tit for Tat', 'game2': 'Random', 'game3': 'Always Cooperate', 'game4': 'Grim Trigger', 'game5': 'Tit for Tat', 'game6': 'Always Defect', 'game7': 'Random'}"
+10,"{
+    ""subjectID"": ""P123456"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {""charityName"": ""Red Cross"", ""amount"": 50},
+        {""charityName"": ""UNICEF"", ""amount"": 75}
+    ],
+    ""strategy"": [
+        {""gameID"": 1, ""role"": ""A"", ""decision"": ""Cooperate""},
+        {""gameID"": 2, ""role"": ""B"", ""decision"": ""Reciprocate""},
+        {""gameID"": 3, ""role"": ""A"", ""decision"": ""Cooperate""},
+        {""gameID"": 4, ""role"": ""B"", ""decision"": ""Reciprocate""},
+        {""gameID"": 5, ""role"": ""A"", ""decision"": ""Defect""},
+        {""gameID"": 6, ""role"": ""B"", ""decision"": ""Punish""},
+        {""gameID"": 7, ""role"": ""A"", ""decision"": ""Cooperate""}
+    ]
+}",P123456,29,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'Reciprocate'}, {'gameID': 3, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 4, 'role': 'B', 'decision': 'Reciprocate'}, {'gameID': 5, 'role': 'A', 'decision': 'Defect'}, {'gameID': 6, 'role': 'B', 'decision': 'Punish'}, {'gameID': 7, 'role': 'A', 'decision': 'Cooperate'}]"
+11,"{
+    ""subjectID"": ""A1234567"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {""amount"": 50, ""organization"": ""Red Cross""},
+        {""amount"": 100, ""organization"": ""UNICEF""}
+    ],
+    ""strategy"": {
+        ""game1"": ""Tit for Tat"",
+        ""game2"": ""Always Cooperate"",
+        ""game3"": ""Random"",
+        ""game4"": ""Grim Trigger"",
+        ""game5"": ""Tit for Tat"",
+        ""game6"": ""Always Defect"",
+        ""game7"": ""Mixed Strategy""
+    }
+}",A1234567,29,Female,2,"{'game1': 'Tit for Tat', 'game2': 'Always Cooperate', 'game3': 'Random', 'game4': 'Grim Trigger', 'game5': 'Tit for Tat', 'game6': 'Always Defect', 'game7': 'Mixed Strategy'}"
+12,"{
+    ""subjectID"": ""A12345"",
+    ""age"": 24,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {""charity"": ""Red Cross"", ""amount"": 50},
+        {""charity"": ""World Wildlife Fund"", ""amount"": 30},
+        {""charity"": ""Local Food Bank"", ""amount"": 20}
+    ],
+    ""strategy"": [
+        {""game"": 1, ""role"": ""A"", ""decision"": ""Cooperate""},
+        {""game"": 2, ""role"": ""B"", ""decision"": ""Match A's decision""},
+        {""game"": 3, ""role"": ""A"", ""decision"": ""Defect""},
+        {""game"": 4, ""role"": ""B"", ""decision"": ""Tit-for-Tat""},
+        {""game"": 5, ""role"": ""A"", ""decision"": ""Random""},
+        {""game"": 6, ""role"": ""B"", ""decision"": ""Maximize own payoff""},
+        {""game"": 7, ""role"": ""A"", ""decision"": ""Cooperate if past cooperative, else defect""}
+    ]
+}",A12345,24,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': ""Match A's decision""}, {'game': 3, 'role': 'A', 'decision': 'Defect'}, {'game': 4, 'role': 'B', 'decision': 'Tit-for-Tat'}, {'game': 5, 'role': 'A', 'decision': 'Random'}, {'game': 6, 'role': 'B', 'decision': 'Maximize own payoff'}, {'game': 7, 'role': 'A', 'decision': 'Cooperate if past cooperative, else defect'}]"
+13,"{
+    ""subjectID"": ""P12345"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": {
+        ""causes"": [""Environmental"", ""Healthcare""],
+        ""lastDonationAmount"": 50,
+        ""frequency"": ""Quarterly""
+    },
+    ""strategy"": [
+        {
+            ""gameID"": 1,
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        },
+        {
+            ""gameID"": 2,
+            ""role"": ""B"",
+            ""decision"": ""Reciprocate""
+        },
+        {
+            ""gameID"": 3,
+            ""role"": ""A"",
+            ""decision"": ""Defect""
+        },
+        {
+            ""gameID"": 4,
+            ""role"": ""B"",
+            ""decision"": ""Match A's decision""
+        },
+        {
+            ""gameID"": 5,
+            ""role"": ""A"",
+            ""decision"": ""Maximize my payoff""
+        },
+        {
+            ""gameID"": 6,
+            ""role"": ""B"",
+            ""decision"": ""Minimize combined losses""
+        },
+        {
+            ""gameID"": 7,
+            ""role"": ""A"",
+            ""decision"": ""Tit for Tat""
+        }
+    ]
+}",P12345,28,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'Reciprocate'}, {'gameID': 3, 'role': 'A', 'decision': 'Defect'}, {'gameID': 4, 'role': 'B', 'decision': ""Match A's decision""}, {'gameID': 5, 'role': 'A', 'decision': 'Maximize my payoff'}, {'gameID': 6, 'role': 'B', 'decision': 'Minimize combined losses'}, {'gameID': 7, 'role': 'A', 'decision': 'Tit for Tat'}]"
+14,"{
+  ""subjectID"": ""SID12345"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""history"": [
+      {
+        ""organization"": ""Red Cross"",
+        ""amount"": 50,
+        ""year"": 2021
+      },
+      {
+        ""organization"": ""World Wildlife Fund"",
+        ""amount"": 75,
+        ""year"": 2022
+      }
+    ]
+  },
+  ""strategy"": [
+    {
+      ""game"": ""Prisoner's Dilemma"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Ultimatum Game"",
+      ""role"": ""B"",
+      ""decision"": ""Accept""
+    },
+    {
+      ""game"": ""Public Goods Game"",
+      ""role"": ""A"",
+      ""decision"": {
+        ""contribution"": 20
+      }
+    },
+    {
+      ""game"": ""Dictator Game"",
+      ""role"": ""A"",
+      ""decision"": {
+        ""giveAmount"": 30
+      }
+    },
+    {
+      ""game"": ""Trust Game"",
+      ""role"": ""A"",
+      ""decision"": {
+        ""sendAmount"": 40
+      }
+    },
+    {
+      ""game"": ""Trust Game"",
+      ""role"": ""B"",
+      ""decision"": {
+        ""returnAmount"": 20
+      }
+    },
+    {
+      ""game"": ""Charity Game"",
+      ""role"": ""A"",
+      ""decision"": {
+        ""donationAmount"": 10
+      }
+    }
+  ]
+}",SID12345,29,Female,2,"[{'game': ""Prisoner's Dilemma"", 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Ultimatum Game', 'role': 'B', 'decision': 'Accept'}, {'game': 'Public Goods Game', 'role': 'A', 'decision': {'contribution': 20}}, {'game': 'Dictator Game', 'role': 'A', 'decision': {'giveAmount': 30}}, {'game': 'Trust Game', 'role': 'A', 'decision': {'sendAmount': 40}}, {'game': 'Trust Game', 'role': 'B', 'decision': {'returnAmount': 20}}, {'game': 'Charity Game', 'role': 'A', 'decision': {'donationAmount': 10}}]"
+15,"{
+  ""subjectID"": ""A1B2C3D4"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""organization"": ""Red Cross"", ""amount"": 50},
+    {""organization"": ""WWF"", ""amount"": 30},
+    {""organization"": ""Local Food Bank"", ""amount"": 20}
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Match previous move""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Split""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    }
+  ]
+}",A1B2C3D4,29,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'Defect'}, {'gameID': 3, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 4, 'role': 'B', 'decision': 'Match previous move'}, {'gameID': 5, 'role': 'A', 'decision': 'Split'}, {'gameID': 6, 'role': 'B', 'decision': 'Reciprocate'}, {'gameID': 7, 'role': 'A', 'decision': 'Cooperate'}]"
+16,"{
+  ""subjectID"": ""U12345X"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""date"": ""2022-05-15"",
+      ""amount"": 50,
+      ""charity"": ""Red Cross""
+    },
+    {
+      ""date"": ""2023-01-25"",
+      ""amount"": 30,
+      ""charity"": ""World Wildlife Fund""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Maximize mutual benefit""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate"",
+      ""rationale"": ""Respond in kind to participant A's decision""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Defect"",
+      ""rationale"": ""Minimize personal risk""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Foster trust and collaboration""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Encourage positive outcomes""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Tit for tat"",
+      ""rationale"": ""Mirror the other participant's actions""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Initial trust-building""
+    }
+  ]
+}",U12345X,28,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate', 'rationale': 'Maximize mutual benefit'}, {'gameID': 2, 'role': 'B', 'decision': 'Reciprocate', 'rationale': ""Respond in kind to participant A's decision""}, {'gameID': 3, 'role': 'A', 'decision': 'Defect', 'rationale': 'Minimize personal risk'}, {'gameID': 4, 'role': 'B', 'decision': 'Cooperate', 'rationale': 'Foster trust and collaboration'}, {'gameID': 5, 'role': 'A', 'decision': 'Cooperate', 'rationale': 'Encourage positive outcomes'}, {'gameID': 6, 'role': 'B', 'decision': 'Tit for tat', 'rationale': ""Mirror the other participant's actions""}, {'gameID': 7, 'role': 'A', 'decision': 'Cooperate', 'rationale': 'Initial trust-building'}]"
+17,"{
+  ""subjectID"": ""A9X34LK2"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalDonations"": 5,
+    ""dollarAmount"": 150
+  },
+  ""strategy"": {
+    ""Game1"": ""Tit-for-tat"",
+    ""Game2"": ""Always Cooperate"",
+    ""Game3"": ""Randomize"",
+    ""Game4"": ""Grim Trigger"",
+    ""Game5"": ""Tit-for-tat"",
+    ""Game6"": ""Always Defect"",
+    ""Game7"": ""Tit-for-tat""
+  }
+}",A9X34LK2,29,female,2,"{'Game1': 'Tit-for-tat', 'Game2': 'Always Cooperate', 'Game3': 'Randomize', 'Game4': 'Grim Trigger', 'Game5': 'Tit-for-tat', 'Game6': 'Always Defect', 'Game7': 'Tit-for-tat'}"
+18,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""CharityWater"",
+      ""amount"": 50,
+      ""date"": ""2023-02-15""
+    },
+    {
+      ""organization"": ""RedCross"",
+      ""amount"": 30,
+      ""date"": ""2023-05-20""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Match A's decision""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Maximize own payoff""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Minimize difference in payoffs""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Alternate between Cooperate and Defect""
+    }
+  ]
+}",P123456,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Cooperate'}, {'game': 4, 'role': 'B', 'decision': ""Match A's decision""}, {'game': 5, 'role': 'A', 'decision': 'Maximize own payoff'}, {'game': 6, 'role': 'B', 'decision': 'Minimize difference in payoffs'}, {'game': 7, 'role': 'A', 'decision': 'Alternate between Cooperate and Defect'}]"
+19,"{
+  ""subjectID"": ""ID12345"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""amount"": 50, ""date"": ""2022-05-15"", ""organization"": ""Red Cross""},
+    {""amount"": 30, ""date"": ""2021-12-20"", ""organization"": ""UNICEF""}
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": ""Game1"",
+      ""role"": ""A"",
+      ""decision"": ""Split 50/50""
+    },
+    {
+      ""gameID"": ""Game2"",
+      ""role"": ""B"",
+      ""decision"": ""Accept Offer""
+    },
+    {
+      ""gameID"": ""Game3"",
+      ""role"": ""A"",
+      ""decision"": ""Split 70/30""
+    },
+    {
+      ""gameID"": ""Game4"",
+      ""role"": ""B"",
+      ""decision"": ""Reject Offer""
+    },
+    {
+      ""gameID"": ""Game5"",
+      ""role"": ""A"",
+      ""decision"": ""Split 60/40""
+    },
+    {
+      ""gameID"": ""Game6"",
+      ""role"": ""B"",
+      ""decision"": ""Accept Offer""
+    },
+    {
+      ""gameID"": ""Game7"",
+      ""role"": ""A"",
+      ""decision"": ""Split 80/20""
+    }
+  ]
+}",ID12345,28,Female,2,"[{'gameID': 'Game1', 'role': 'A', 'decision': 'Split 50/50'}, {'gameID': 'Game2', 'role': 'B', 'decision': 'Accept Offer'}, {'gameID': 'Game3', 'role': 'A', 'decision': 'Split 70/30'}, {'gameID': 'Game4', 'role': 'B', 'decision': 'Reject Offer'}, {'gameID': 'Game5', 'role': 'A', 'decision': 'Split 60/40'}, {'gameID': 'Game6', 'role': 'B', 'decision': 'Accept Offer'}, {'gameID': 'Game7', 'role': 'A', 'decision': 'Split 80/20'}]"
+20,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 27,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charityName"": ""World Food Program"",
+      ""amountDonated"": 50,
+      ""frequency"": ""Annually""
+    },
+    {
+      ""charityName"": ""Doctors Without Borders"",
+      ""amountDonated"": 30,
+      ""frequency"": ""Annually""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameName"": ""Ultimatum Game"",
+      ""role"": ""A"",
+      ""decision"": ""Offer 50% of the amount""
+    },
+    {
+      ""gameName"": ""Prisoner's Dilemma"",
+      ""role"": ""B"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameName"": ""Trust Game"",
+      ""role"": ""A"",
+      ""decision"": ""Send 70% of the amount""
+    },
+    {
+      ""gameName"": ""Dictator Game"",
+      ""role"": ""A"",
+      ""decision"": ""Give 30% of the amount""
+    },
+    {
+      ""gameName"": ""Public Goods Game"",
+      ""role"": ""B"",
+      ""decision"": ""Contribute 40% of the tokens""
+    },
+    {
+      ""gameName"": ""Battle of the Sexes"",
+      ""role"": ""A"",
+      ""decision"": ""Choose mutual benefit option""
+    },
+    {
+      ""gameName"": ""Stag Hunt"",
+      ""role"": ""B"",
+      ""decision"": ""Choose cooperative strategy""
+    }
+  ]
+}",P123456,27,Female,2,"[{'gameName': 'Ultimatum Game', 'role': 'A', 'decision': 'Offer 50% of the amount'}, {'gameName': ""Prisoner's Dilemma"", 'role': 'B', 'decision': 'Cooperate'}, {'gameName': 'Trust Game', 'role': 'A', 'decision': 'Send 70% of the amount'}, {'gameName': 'Dictator Game', 'role': 'A', 'decision': 'Give 30% of the amount'}, {'gameName': 'Public Goods Game', 'role': 'B', 'decision': 'Contribute 40% of the tokens'}, {'gameName': 'Battle of the Sexes', 'role': 'A', 'decision': 'Choose mutual benefit option'}, {'gameName': 'Stag Hunt', 'role': 'B', 'decision': 'Choose cooperative strategy'}]"
+21,"{
+  ""subjectID"": ""a9f8b432d1"",
+  ""age"": 27,
+  ""gender"": ""Male"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalDonated"": 350,
+    ""charities"": [
+      ""Red Cross"",
+      ""World Wildlife Fund"",
+      ""Doctors Without Borders""
+    ],
+    ""mostRecentDonationDate"": ""2023-03-15""
+  },
+  ""strategy"": {
+    ""game1"": {
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    ""game2"": {
+      ""role"": ""B"",
+      ""decision"": ""reciprocate""
+    },
+    ""game3"": {
+      ""role"": ""A"",
+      ""decision"": ""split 50/50""
+    },
+    ""game4"": {
+      ""role"": ""B"",
+      ""decision"": ""accept""
+    },
+    ""game5"": {
+      ""role"": ""A"",
+      ""decision"": ""compete""
+    },
+    ""game6"": {
+      ""role"": ""B"",
+      ""decision"": ""offer 60/40 split""
+    },
+    ""game7"": {
+      ""role"": ""A"",
+      ""decision"": ""maximize joint payoff""
+    }
+  }
+}",a9f8b432d1,27,Male,2,"{'game1': {'role': 'A', 'decision': 'cooperate'}, 'game2': {'role': 'B', 'decision': 'reciprocate'}, 'game3': {'role': 'A', 'decision': 'split 50/50'}, 'game4': {'role': 'B', 'decision': 'accept'}, 'game5': {'role': 'A', 'decision': 'compete'}, 'game6': {'role': 'B', 'decision': 'offer 60/40 split'}, 'game7': {'role': 'A', 'decision': 'maximize joint payoff'}}"
+22,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2021-06-15""
+    },
+    {
+      ""charity"": ""UNICEF"",
+      ""amount"": 30,
+      ""date"": ""2022-01-22""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Match""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Match""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Match""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    }
+  ]
+}",P123456,28,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Match'}, {'game': 3, 'role': 'A', 'decision': 'Defect'}, {'game': 4, 'role': 'B', 'decision': 'Match'}, {'game': 5, 'role': 'A', 'decision': 'Cooperate'}, {'game': 6, 'role': 'B', 'decision': 'Match'}, {'game': 7, 'role': 'A', 'decision': 'Defect'}]"
+23,"{
+  ""subjectID"": ""XA0925Y"",
+  ""age"": 28,
+  ""gender"": ""non-binary"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-12-15""
+    },
+    {
+      ""organization"": ""Wildlife Conservation Society"",
+      ""amount"": 20,
+      ""date"": ""2023-03-10""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate"",
+      ""rationale"": ""Long-term benefit for both participants.""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match A's choice"",
+      ""rationale"": ""Ensures reciprocation and trust-building.""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""split evenly"",
+      ""rationale"": ""Fairness and equity.""
+    }
+  ]
+}",XA0925Y,28,non-binary,2,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate', 'rationale': 'Long-term benefit for both participants.'}, {'gameID': 2, 'role': 'B', 'decision': ""match A's choice"", 'rationale': 'Ensures reciprocation and trust-building.'}, {'gameID': 3, 'role': 'A', 'decision': 'split evenly', 'rationale': 'Fairness and equity.'}]"
+24,"{
+   ""subjectID"": ""S123456"",
+   ""age"": 28,
+   ""gender"": ""Female"",
+   ""numberSiblings"": 2,
+   ""donation"": [
+      {
+         ""organization"": ""Red Cross"",
+         ""amount"": 50,
+         ""frequency"": ""Annually""
+      },
+      {
+         ""organization"": ""Local Animal Shelter"",
+         ""amount"": 30,
+         ""frequency"": ""Semi-Annually""
+      }
+   ],
+   ""strategy"": [
+      {
+         ""game"": 1,
+         ""role"": ""A"",
+         ""decision"": ""Cooperate""
+      },
+      {
+         ""game"": 2,
+         ""role"": ""B"",
+         ""decision"": ""Defect""
+      },
+      {
+         ""game"": 3,
+         ""role"": ""A"",
+         ""decision"": ""Tit-for-Tat""
+      },
+      {
+         ""game"": 4,
+         ""role"": ""B"",
+         ""decision"": ""Always Cooperate""
+      },
+      {
+         ""game"": 5,
+         ""role"": ""A"",
+         ""decision"": ""Random""
+      },
+      {
+         ""game"": 6,
+         ""role"": ""B"",
+         ""decision"": ""Grim Trigger""
+      },
+      {
+         ""game"": 7,
+         ""role"": ""A"",
+         ""decision"": ""Always Defect""
+      }
+   ]
+}",S123456,28,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Tit-for-Tat'}, {'game': 4, 'role': 'B', 'decision': 'Always Cooperate'}, {'game': 5, 'role': 'A', 'decision': 'Random'}, {'game': 6, 'role': 'B', 'decision': 'Grim Trigger'}, {'game': 7, 'role': 'A', 'decision': 'Always Defect'}]"
+25,"{
+  ""subjectID"": ""01A23BCD45"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-05-10""
+    },
+    {
+      ""organization"": ""Doctors Without Borders"",
+      ""amount"": 30,
+      ""date"": ""2023-01-15""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Ultimatum Game"",
+      ""role"": ""A"",
+      ""decision"": ""Offer 40%""
+    },
+    {
+      ""game"": ""Dictator Game"",
+      ""role"": ""A"",
+      ""decision"": ""Give 30%""
+    },
+    {
+      ""game"": ""Trust Game"",
+      ""role"": ""B"",
+      ""decision"": ""Return 50%""
+    },
+    {
+      ""game"": ""Public Goods Game"",
+      ""role"": ""A"",
+      ""decision"": ""Contribute 25%""
+    }
+  ]
+}",01A23BCD45,28,Female,2,"[{'game': 'Ultimatum Game', 'role': 'A', 'decision': 'Offer 40%'}, {'game': 'Dictator Game', 'role': 'A', 'decision': 'Give 30%'}, {'game': 'Trust Game', 'role': 'B', 'decision': 'Return 50%'}, {'game': 'Public Goods Game', 'role': 'A', 'decision': 'Contribute 25%'}]"
+26,"{
+  ""subjectID"": ""SUB123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""year"": 2021,
+      ""amount"": 50,
+      ""charity"": ""Red Cross""
+    },
+    {
+      ""year"": 2022,
+      ""amount"": 75,
+      ""charity"": ""World Wildlife Fund""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""retaliate""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""negotiate""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""reciprocate""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""random""
+    }
+  ]
+}",SUB123456,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'cooperate'}, {'game': 2, 'role': 'B', 'decision': 'match'}, {'game': 3, 'role': 'A', 'decision': 'defect'}, {'game': 4, 'role': 'B', 'decision': 'retaliate'}, {'game': 5, 'role': 'A', 'decision': 'negotiate'}, {'game': 6, 'role': 'B', 'decision': 'reciprocate'}, {'game': 7, 'role': 'A', 'decision': 'random'}]"
+27,"{
+  ""subjectID"": ""S1234"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""amount"": 50,
+      ""organization"": ""Red Cross"",
+      ""date"": ""2023-09-15""
+    },
+    {
+      ""amount"": 30,
+      ""organization"": ""UNICEF"",
+      ""date"": ""2023-10-01""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Game 1"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 2"",
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": ""Game 3"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 4"",
+      ""role"": ""B"",
+      ""decision"": ""Match partner's move""
+    },
+    {
+      ""game"": ""Game 5"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 6"",
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": ""Game 7"",
+      ""role"": ""A"",
+      ""decision"": ""Random""
+    }
+  ]
+}",S1234,28,Female,2,"[{'game': 'Game 1', 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 2', 'role': 'B', 'decision': 'Defect'}, {'game': 'Game 3', 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 4', 'role': 'B', 'decision': ""Match partner's move""}, {'game': 'Game 5', 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 6', 'role': 'B', 'decision': 'Defect'}, {'game': 'Game 7', 'role': 'A', 'decision': 'Random'}]"
+28,"{
+  ""subjectID"": ""S123456"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2023-06-15""
+    },
+    {
+      ""organization"": ""UNICEF"",
+      ""amount"": 30,
+      ""date"": ""2023-09-01""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""B"",
+      ""decision"": ""accept""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""A"",
+      ""decision"": ""split equally""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""B"",
+      ""decision"": ""match""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""A"",
+      ""decision"": ""invest""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""B"",
+      ""decision"": ""trust""
+    }
+  ]
+}",S123456,29,female,2,"[{'game': 1, 'role': 'A', 'decision': 'cooperate'}, {'game': 2, 'role': 'A', 'decision': 'defect'}, {'game': 3, 'role': 'B', 'decision': 'accept'}, {'game': 4, 'role': 'A', 'decision': 'split equally'}, {'game': 5, 'role': 'B', 'decision': 'match'}, {'game': 6, 'role': 'A', 'decision': 'invest'}, {'game': 7, 'role': 'B', 'decision': 'trust'}]"
+29,"{
+  ""subjectID"": ""XJ7291AB"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""charities"": [
+      {
+        ""name"": ""Global Health"",
+        ""amount"": 50
+      },
+      {
+        ""name"": ""Animal Welfare"",
+        ""amount"": 20
+      }
+    ],
+    ""totalAmount"": 70
+  },
+  ""strategy"": {
+    ""games"": [
+      {
+        ""gameID"": 1,
+        ""roles"": {
+          ""A"": ""Tit-for-Tat"",
+          ""B"": ""Grim Trigger""
+        }
+      },
+      {
+        ""gameID"": 2,
+        ""roles"": {
+          ""A"": ""Randomized Response"",
+          ""B"": ""Always Cooperate""
+        }
+      },
+      {
+        ""gameID"": 3,
+        ""roles"": {
+          ""A"": ""Conditional Cooperation"",
+          ""B"": ""Always Defect""
+        }
+      },
+      {
+        ""gameID"": 4,
+        ""roles"": {
+          ""A"": ""Grim Trigger""
+        }
+      },
+      {
+        ""gameID"": 5,
+        ""roles"": {
+          ""B"": ""Tit-for-Tat""
+        }
+      },
+      {
+        ""gameID"": 6,
+        ""roles"": {
+          ""A"": ""Randomized Response"",
+          ""B"": ""Grim Trigger""
+        }
+      },
+      {
+        ""gameID"": 7,
+        ""roles"": {
+          ""A"": ""Always Defect"",
+          ""B"": ""Always Cooperate""
+        }
+      }
+    ]
+  }
+}",XJ7291AB,29,Female,2,"{'games': [{'gameID': 1, 'roles': {'A': 'Tit-for-Tat', 'B': 'Grim Trigger'}}, {'gameID': 2, 'roles': {'A': 'Randomized Response', 'B': 'Always Cooperate'}}, {'gameID': 3, 'roles': {'A': 'Conditional Cooperation', 'B': 'Always Defect'}}, {'gameID': 4, 'roles': {'A': 'Grim Trigger'}}, {'gameID': 5, 'roles': {'B': 'Tit-for-Tat'}}, {'gameID': 6, 'roles': {'A': 'Randomized Response', 'B': 'Grim Trigger'}}, {'gameID': 7, 'roles': {'A': 'Always Defect', 'B': 'Always Cooperate'}}]}"
+30,"{
+  ""subjectID"": ""P12345"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""frequency"": ""bi-annually""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 30,
+      ""frequency"": ""annually""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match opponent's choice from previous round""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""A"",
+      ""decision"": ""random choice""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""B"",
+      ""decision"": ""always cooperate""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""strategic mix""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""reciprocate if opponent cooperates, defect otherwise""
+    }
+  ]
+}",P12345,28,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'cooperate'}, {'game': 2, 'role': 'B', 'decision': ""match opponent's choice from previous round""}, {'game': 3, 'role': 'A', 'decision': 'defect'}, {'game': 4, 'role': 'A', 'decision': 'random choice'}, {'game': 5, 'role': 'B', 'decision': 'always cooperate'}, {'game': 6, 'role': 'B', 'decision': 'strategic mix'}, {'game': 7, 'role': 'A', 'decision': 'reciprocate if opponent cooperates, defect otherwise'}]"
+31,"{
+  ""subjectID"": ""participant_12345"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50,
+      ""frequency"": ""annual""
+    },
+    {
+      ""charity"": ""World Wildlife Fund"",
+      ""amount"": 30,
+      ""frequency"": ""semi-annual""
+    }
+  ],
+  ""strategy"": {
+    ""game1"": ""tit-for-tat"",
+    ""game2"": ""always cooperate"",
+    ""game3"": ""random"",
+    ""game4"": ""maximin"",
+    ""game5"": ""altruistic"",
+    ""game6"": ""tit-for-tat"",
+    ""game7"": ""always defect""
+  }
+}",participant_12345,29,female,2,"{'game1': 'tit-for-tat', 'game2': 'always cooperate', 'game3': 'random', 'game4': 'maximin', 'game5': 'altruistic', 'game6': 'tit-for-tat', 'game7': 'always defect'}"
+32,"{
+  ""subjectID"": ""A29H4V6R"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""currency"": ""USD"",
+      ""date"": ""2023-01-15""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 25,
+      ""currency"": ""USD"",
+      ""date"": ""2023-06-30""
+    },
+    {
+      ""organization"": ""Doctors Without Borders"",
+      ""amount"": 30,
+      ""currency"": ""USD"",
+      ""date"": ""2022-12-01""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameNumber"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate"",
+      ""rationale"": ""Maximize collective payoff""
+    },
+    {
+      ""gameNumber"": 2,
+      ""role"": ""B"",
+      ""decision"": ""reciprocate"",
+      ""rationale"": ""Mirror the action of Partner A if favorable""
+    },
+    {
+      ""gameNumber"": 3,
+      ""role"": ""A"",
+      ""decision"": ""compromise"",
+      ""rationale"": ""Ensure both parties get a reasonable outcome""
+    },
+    {
+      ""gameNumber"": 4,
+      ""role"": ""B"",
+      ""decision"": ""accept"",
+      ""rationale"": ""Accept the offer if it’s fair""
+    }
+  ]
+}",A29H4V6R,29,Female,2,"[{'gameNumber': 1, 'role': 'A', 'decision': 'cooperate', 'rationale': 'Maximize collective payoff'}, {'gameNumber': 2, 'role': 'B', 'decision': 'reciprocate', 'rationale': 'Mirror the action of Partner A if favorable'}, {'gameNumber': 3, 'role': 'A', 'decision': 'compromise', 'rationale': 'Ensure both parties get a reasonable outcome'}, {'gameNumber': 4, 'role': 'B', 'decision': 'accept', 'rationale': 'Accept the offer if it’s fair'}]"
+33,"{
+  ""subjectID"": ""SUB123456"",
+  ""age"": 28,
+  ""gender"": ""Non-binary"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""history"": [
+      {
+        ""date"": ""2022-05-15"",
+        ""amount"": 50,
+        ""charity"": ""Red Cross""
+      },
+      {
+        ""date"": ""2023-01-30"",
+        ""amount"": 75,
+        ""charity"": ""Doctors Without Borders""
+      }
+    ]
+  },
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""defect""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""compromise""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""match""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""random""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""maximizeOwn""
+    }
+  ]
+}",SUB123456,28,Non-binary,2,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'defect'}, {'gameID': 3, 'role': 'A', 'decision': 'compromise'}, {'gameID': 4, 'role': 'B', 'decision': 'match'}, {'gameID': 5, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 6, 'role': 'B', 'decision': 'random'}, {'gameID': 7, 'role': 'A', 'decision': 'maximizeOwn'}]"
+34,"{
+  ""subjectID"": ""1234ABCD"",
+  ""age"": 28,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""amount"": 50, ""organization"": ""Red Cross""},
+    {""amount"": 30, ""organization"": ""Doctors Without Borders""},
+    {""amount"": 20, ""organization"": ""Local Food Bank""}
+  ],
+  ""strategy"": [
+    {""game1"": {""role"": ""A"", ""decision"": ""cooperate""}},
+    {""game2"": {""role"": ""B"", ""decision"": ""defect""}},
+    {""game3"": {""role"": ""A"", ""decision"": ""tit-for-tat""}},
+    {""game4"": {""role"": ""B"", ""decision"": ""cooperate""}},
+    {""game5"": {""role"": ""A"", ""decision"": ""random""}},
+    {""game6"": {""role"": ""B"", ""decision"": ""maximize personal gain""}},
+    {""game7"": {""role"": ""A"", ""decision"": ""minimize loss""}}
+  ]
+}",1234ABCD,28,female,2,"[{'game1': {'role': 'A', 'decision': 'cooperate'}}, {'game2': {'role': 'B', 'decision': 'defect'}}, {'game3': {'role': 'A', 'decision': 'tit-for-tat'}}, {'game4': {'role': 'B', 'decision': 'cooperate'}}, {'game5': {'role': 'A', 'decision': 'random'}}, {'game6': {'role': 'B', 'decision': 'maximize personal gain'}}, {'game7': {'role': 'A', 'decision': 'minimize loss'}}]"
+35,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 28,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""2021"": 50,
+    ""2022"": 75,
+    ""2023"": 60
+  },
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""defect""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""compromise""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""optimize personal gain""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""match opponent's last move""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""random"" 
+    }
+  ]
+}",A12345,28,female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'defect'}, {'gameID': 3, 'role': 'A', 'decision': 'compromise'}, {'gameID': 4, 'role': 'B', 'decision': 'cooperate'}, {'gameID': 5, 'role': 'A', 'decision': 'optimize personal gain'}, {'gameID': 6, 'role': 'B', 'decision': ""match opponent's last move""}, {'gameID': 7, 'role': 'A', 'decision': 'random'}]"
+36,"{
+  ""subjectID"": ""AB123456"",
+  ""age"": 30,
+  ""gender"": ""Non-binary"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""amount"": 50,
+      ""organization"": ""Charity A"",
+      ""date"": ""2022-05-01""
+    },
+    {
+      ""amount"": 75,
+      ""organization"": ""Charity B"",
+      ""date"": ""2023-02-14""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""ignore""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""match""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    }
+  ]
+}",AB123456,30,Non-binary,2,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'match'}, {'gameID': 3, 'role': 'A', 'decision': 'defect'}, {'gameID': 4, 'role': 'B', 'decision': 'ignore'}, {'gameID': 5, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 6, 'role': 'B', 'decision': 'match'}, {'gameID': 7, 'role': 'A', 'decision': 'defect'}]"
+37,"{
+    ""subjectID"": ""A12345"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {""charity"": ""World Wildlife Fund"", ""amount"": 50, ""date"": ""2023-03-15""},
+        {""charity"": ""Doctors Without Borders"", ""amount"": 75, ""date"": ""2023-05-10""},
+        {""charity"": ""Red Cross"", ""amount"": 100, ""date"": ""2022-12-01""}
+    ],
+    ""strategy"": {
+        ""Game1"": ""Tit-for-tat"",
+        ""Game2"": ""Maximize own payoff"",
+        ""Game3"": ""Altruistic"",
+        ""Game4"": ""Randomize"",
+        ""Game5"": ""Tit-for-tat"",
+        ""Game6"": ""Cooperate if first, maximize payoff if second"",
+        ""Game7"": ""Minimize other's loss""
+    }
+}",A12345,28,Female,2,"{'Game1': 'Tit-for-tat', 'Game2': 'Maximize own payoff', 'Game3': 'Altruistic', 'Game4': 'Randomize', 'Game5': 'Tit-for-tat', 'Game6': 'Cooperate if first, maximize payoff if second', 'Game7': ""Minimize other's loss""}"
+38,"{
+  ""subjectID"": ""S202310A1"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-06-15""
+    },
+    {
+      ""charity"": ""Doctors Without Borders"",
+      ""amount"": 75,
+      ""date"": ""2023-01-20""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Unsure""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Balance""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Unsure""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    }
+  ]
+}",S202310A1,28,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'Unsure'}, {'gameID': 3, 'role': 'A', 'decision': 'Defect'}, {'gameID': 4, 'role': 'B', 'decision': 'Cooperate'}, {'gameID': 5, 'role': 'A', 'decision': 'Balance'}, {'gameID': 6, 'role': 'B', 'decision': 'Unsure'}, {'gameID': 7, 'role': 'A', 'decision': 'Cooperate'}]"
+39,"{
+    ""subjectID"": ""SUB123456"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": [
+        {
+            ""organization"": ""Red Cross"",
+            ""amount"": 50,
+            ""date"": ""2022-12-15""
+        },
+        {
+            ""organization"": ""UNICEF"",
+            ""amount"": 30,
+            ""date"": ""2023-03-10""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": ""Ultimatum Game"",
+            ""role"": ""A"",
+            ""strategy"": ""Offer 40% of the total amount""
+        },
+        {
+            ""game"": ""Dictator Game"",
+            ""role"": ""B"",
+            ""strategy"": ""Accept any offer >= 20%""
+        },
+        {
+            ""game"": ""Trust Game"",
+            ""role"": ""A"",
+            ""strategy"": ""Send 50% of the initial amount""
+        },
+        {
+            ""game"": ""Public Goods Game"",
+            ""role"": ""A"",
+            ""strategy"": ""Contribute 30% of the endowment""
+        }
+    ]
+}",SUB123456,29,Female,1,"[{'game': 'Ultimatum Game', 'role': 'A', 'strategy': 'Offer 40% of the total amount'}, {'game': 'Dictator Game', 'role': 'B', 'strategy': 'Accept any offer >= 20%'}, {'game': 'Trust Game', 'role': 'A', 'strategy': 'Send 50% of the initial amount'}, {'game': 'Public Goods Game', 'role': 'A', 'strategy': 'Contribute 30% of the endowment'}]"
+40,"{
+  ""subjectID"": ""subj12345"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""history"": [
+      {
+        ""donationID"": ""don001"",
+        ""amount"": 50,
+        ""organization"": ""Red Cross"",
+        ""date"": ""2021-07-15""
+      },
+      {
+        ""donationID"": ""don002"",
+        ""amount"": 100,
+        ""organization"": ""Doctors Without Borders"",
+        ""date"": ""2022-03-22""
+      }
+    ]
+  },
+  ""strategy"": [
+    {
+      ""gameID"": ""game1"",
+      ""role"": ""A"",
+      ""decision"": ""maximize own payoff by choosing the option with highest immediate reward""
+    },
+    {
+      ""gameID"": ""game2"",
+      ""role"": ""B"",
+      ""decision"": ""reciprocate fairly to the decision made by player A""
+    },
+    {
+      ""gameID"": ""game3"",
+      ""role"": ""A"",
+      ""decision"": ""split resources evenly to ensure mutual benefit""
+    }
+  ]
+}",subj12345,29,female,2,"[{'gameID': 'game1', 'role': 'A', 'decision': 'maximize own payoff by choosing the option with highest immediate reward'}, {'gameID': 'game2', 'role': 'B', 'decision': 'reciprocate fairly to the decision made by player A'}, {'gameID': 'game3', 'role': 'A', 'decision': 'split resources evenly to ensure mutual benefit'}]"
+41,"
+{
+  ""subjectID"": ""SID1023"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""2021"": 150,
+    ""2022"": 200,
+    ""2023"": 250
+  },
+  ""strategy"": {
+    ""game1"": {
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    ""game2"": {
+      ""role"": ""B"",
+      ""decision"": ""Retaliate""
+    },
+    ""game3"": {
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    ""game4"": {
+      ""role"": ""B"",
+      ""decision"": ""Forgive""
+    },
+    ""game5"": {
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    ""game6"": {
+      ""role"": ""B"",
+      ""decision"": ""Match Previous""
+    },
+    ""game7"": {
+      ""role"": ""A"",
+      ""decision"": ""Random""
+    }
+  }
+}",SID1023,28,Female,2,"{'game1': {'role': 'A', 'decision': 'Cooperate'}, 'game2': {'role': 'B', 'decision': 'Retaliate'}, 'game3': {'role': 'A', 'decision': 'Cooperate'}, 'game4': {'role': 'B', 'decision': 'Forgive'}, 'game5': {'role': 'A', 'decision': 'Defect'}, 'game6': {'role': 'B', 'decision': 'Match Previous'}, 'game7': {'role': 'A', 'decision': 'Random'}}"
+42,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""charity"": ""Save the Children"",
+    ""amount"": 50,
+    ""frequency"": ""monthly""
+  },
+  ""strategy"": {
+    ""game1"": ""tit-for-tat"",
+    ""game2"": ""random"",
+    ""game3"": ""always cooperate"",
+    ""game4"": ""tit-for-tat"",
+    ""game5"": ""always defect"",
+    ""game6"": ""random"",
+    ""game7"": ""tit-for-tat""
+  }
+}",A12345,29,Female,2,"{'game1': 'tit-for-tat', 'game2': 'random', 'game3': 'always cooperate', 'game4': 'tit-for-tat', 'game5': 'always defect', 'game6': 'random', 'game7': 'tit-for-tat'}"
+43,"{
+    ""subjectID"": ""P12345"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": {
+        ""charities"": [
+            {
+                ""name"": ""Red Cross"",
+                ""amount"": 50
+            },
+            {
+                ""name"": ""UNICEF"",
+                ""amount"": 30
+            },
+            {
+                ""name"": ""Local Animal Shelter"",
+                ""amount"": 20
+            }
+        ],
+        ""totalDonations"": 100
+    },
+    ""strategy"": [
+        {
+            ""game"": ""Ultimatum Game"",
+            ""role"": ""A"",
+            ""decision"": ""Offer 50%""
+        },
+        {
+            ""game"": ""Dictator Game"",
+            ""role"": ""A"",
+            ""decision"": ""Give 20%""
+        },
+        {
+            ""game"": ""Trust Game"",
+            ""role"": ""B"",
+            ""decision"": ""Return 50%""
+        },
+        {
+            ""game"": ""Public Goods Game"",
+            ""role"": ""Participant"",
+            ""decision"": ""Contribute 40% of endowment""
+        },
+        {
+            ""game"": ""Prisoner's Dilemma"",
+            ""role"": ""Player"",
+            ""decision"": ""Cooperate""
+        }
+    ]
+}",P12345,28,Female,2,"[{'game': 'Ultimatum Game', 'role': 'A', 'decision': 'Offer 50%'}, {'game': 'Dictator Game', 'role': 'A', 'decision': 'Give 20%'}, {'game': 'Trust Game', 'role': 'B', 'decision': 'Return 50%'}, {'game': 'Public Goods Game', 'role': 'Participant', 'decision': 'Contribute 40% of endowment'}, {'game': ""Prisoner's Dilemma"", 'role': 'Player', 'decision': 'Cooperate'}]"
+44,"{
+  ""subjectID"": ""12345678"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-06-15""
+    },
+    {
+      ""organization"": ""Doctors Without Borders"",
+      ""amount"": 30,
+      ""date"": ""2023-03-22""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Prisoner's Dilemma"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Ultimatum Game"",
+      ""role"": ""B"",
+      ""decision"": ""Accept""
+    },
+    {
+      ""game"": ""Trust Game"",
+      ""role"": ""A"",
+      ""decision"": ""Trust""
+    }
+  ]
+}",12345678,28,Female,2,"[{'game': ""Prisoner's Dilemma"", 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Ultimatum Game', 'role': 'B', 'decision': 'Accept'}, {'game': 'Trust Game', 'role': 'A', 'decision': 'Trust'}]"
+45,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50
+    },
+    {
+      ""charity"": ""World Wildlife Fund"",
+      ""amount"": 30
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Ultimatum Game"",
+      ""role"": ""A"",
+      ""decision"": ""Offer 40% of the total amount""
+    },
+    {
+      ""game"": ""Trust Game"",
+      ""role"": ""B"",
+      ""decision"": ""Return 50% of the amount received""
+    },
+    {
+      ""game"": ""Public Goods Game"",
+      ""role"": ""A"",
+      ""decision"": ""Contribute 20 tokens""
+    },
+    {
+      ""game"": ""Dictator Game"",
+      ""role"": ""A"",
+      ""decision"": ""Give 30% of the total amount""
+    },
+    {
+      ""game"": ""Prisoner's Dilemma"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Chicken Game"",
+      ""role"": ""A"",
+      ""decision"": ""Swerve""
+    },
+    {
+      ""game"": ""Stag Hunt Game"",
+      ""role"": ""A"",
+      ""decision"": ""Hunt stag""
+    }
+  ]
+}",A12345,28,Female,2,"[{'game': 'Ultimatum Game', 'role': 'A', 'decision': 'Offer 40% of the total amount'}, {'game': 'Trust Game', 'role': 'B', 'decision': 'Return 50% of the amount received'}, {'game': 'Public Goods Game', 'role': 'A', 'decision': 'Contribute 20 tokens'}, {'game': 'Dictator Game', 'role': 'A', 'decision': 'Give 30% of the total amount'}, {'game': ""Prisoner's Dilemma"", 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Chicken Game', 'role': 'A', 'decision': 'Swerve'}, {'game': 'Stag Hunt Game', 'role': 'A', 'decision': 'Hunt stag'}]"
+46,"{
+  ""subjectID"": ""A10345"",
+  ""age"": 29,
+  ""gender"": ""male"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 25,
+      ""date"": ""2023-02-15""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 10,
+      ""date"": ""2022-12-10""
+    },
+    {
+      ""organization"": ""Local Homeless Shelter"",
+      ""amount"": 15,
+      ""date"": ""2023-06-05""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""allocate 50% to self, 50% to other""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""accept offer if ≥ 40%, reject otherwise""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""offer 30%""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""accept offer if ≥ 25%, reject otherwise""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""allocate 60% to self, 40% to other""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""accept offer if ≥ 35%, reject otherwise""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""allocate 55% to self, 45% to other""
+    }
+  ]
+}",A10345,29,male,2,"[{'gameID': 1, 'role': 'A', 'decision': 'allocate 50% to self, 50% to other'}, {'gameID': 2, 'role': 'B', 'decision': 'accept offer if ≥ 40%, reject otherwise'}, {'gameID': 3, 'role': 'A', 'decision': 'offer 30%'}, {'gameID': 4, 'role': 'B', 'decision': 'accept offer if ≥ 25%, reject otherwise'}, {'gameID': 5, 'role': 'A', 'decision': 'allocate 60% to self, 40% to other'}, {'gameID': 6, 'role': 'B', 'decision': 'accept offer if ≥ 35%, reject otherwise'}, {'gameID': 7, 'role': 'A', 'decision': 'allocate 55% to self, 45% to other'}]"
+47,"{
+  ""subjectID"": ""A12345XYZ"",
+  ""age"": 29,
+  ""gender"": ""Non-binary"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-06-15""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 30,
+      ""date"": ""2023-02-10""
+    }
+  ],
+  ""strategy"": {
+    ""Game1"": {
+      ""Role"": ""A"",
+      ""Decision"": ""Cooperate""
+    },
+    ""Game2"": {
+      ""Role"": ""B"",
+      ""Decision"": ""Defect""
+    },
+    ""Game3"": {
+      ""Role"": ""A"",
+      ""Decision"": ""Split Evenly""
+    },
+    ""Game4"": {
+      ""Role"": ""B"",
+      ""Decision"": ""Match A's Decision""
+    },
+    ""Game5"": {
+      ""Role"": ""A"",
+      ""Decision"": ""Maximize Own Payoff""
+    },
+    ""Game6"": {
+      ""Role"": ""B"",
+      ""Decision"": ""Reciprocate A's Fair Offer""
+    },
+    ""Game7"": {
+      ""Role"": ""A"",
+      ""Decision"": ""Fair Split""
+    }
+  }
+}",A12345XYZ,29,Non-binary,2,"{'Game1': {'Role': 'A', 'Decision': 'Cooperate'}, 'Game2': {'Role': 'B', 'Decision': 'Defect'}, 'Game3': {'Role': 'A', 'Decision': 'Split Evenly'}, 'Game4': {'Role': 'B', 'Decision': ""Match A's Decision""}, 'Game5': {'Role': 'A', 'Decision': 'Maximize Own Payoff'}, 'Game6': {'Role': 'B', 'Decision': ""Reciprocate A's Fair Offer""}, 'Game7': {'Role': 'A', 'Decision': 'Fair Split'}}"
+48,"{
+  ""subjectID"": ""A1234567"",
+  ""age"": 28,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalDonations"": 150,
+    ""organization"": {
+      ""RedCross"": 50,
+      ""UNICEF"": 100
+    },
+    ""timeFrame"": ""last year""
+  },
+  ""strategy"": {
+    ""game1"": ""tit-for-tat"",
+    ""game2"": ""random"",
+    ""game3"": ""altruistic"",
+    ""game4"": ""maximin"",
+    ""game5"": ""whatever-my-partner-did-last"",
+    ""game6"": ""always-cooperate"",
+    ""game7"": ""always-defect""
+  }
+}",A1234567,28,female,2,"{'game1': 'tit-for-tat', 'game2': 'random', 'game3': 'altruistic', 'game4': 'maximin', 'game5': 'whatever-my-partner-did-last', 'game6': 'always-cooperate', 'game7': 'always-defect'}"
+49,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 27,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 100,
+      ""date"": ""2022-01-15""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 50,
+      ""date"": ""2022-05-10""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Match A's choice""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Maximize own payoff""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Split evenly""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""50/50 if fair, otherwise defect""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Maximize group benefit""
+    }
+  ]
+}",A12345,27,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': ""Match A's choice""}, {'game': 3, 'role': 'A', 'decision': 'Defect'}, {'game': 4, 'role': 'B', 'decision': 'Maximize own payoff'}, {'game': 5, 'role': 'A', 'decision': 'Split evenly'}, {'game': 6, 'role': 'B', 'decision': '50/50 if fair, otherwise defect'}, {'game': 7, 'role': 'A', 'decision': 'Maximize group benefit'}]"
+50,"{
+  ""subjectID"": ""PART123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-04-15""
+    },
+    {
+      ""charity"": ""Save the Children"",
+      ""amount"": 30,
+      ""date"": ""2023-03-20""
+    }
+  ],
+  ""strategy"": {
+    ""Game1"": {
+      ""role"": ""A"",
+      ""decision"": ""maximize payoff for self""
+    },
+    ""Game2"": {
+      ""role"": ""B"",
+      ""decision"": ""reciprocate favorably""
+    },
+    ""Game3"": {
+      ""role"": ""A"",
+      ""decision"": ""split evenly""
+    },
+    ""Game4"": {
+      ""role"": ""B"",
+      ""decision"": ""trust counterpart""
+    },
+    ""Game5"": {
+      ""role"": ""A"",
+      ""decision"": ""take moderate risk""
+    },
+    ""Game6"": {
+      ""role"": ""B"",
+      ""decision"": ""cooperate for mutual gain""
+    },
+    ""Game7"": {
+      ""role"": ""A"",
+      ""decision"": ""prioritize fairness""
+    }
+  }
+}",PART123456,29,Female,2,"{'Game1': {'role': 'A', 'decision': 'maximize payoff for self'}, 'Game2': {'role': 'B', 'decision': 'reciprocate favorably'}, 'Game3': {'role': 'A', 'decision': 'split evenly'}, 'Game4': {'role': 'B', 'decision': 'trust counterpart'}, 'Game5': {'role': 'A', 'decision': 'take moderate risk'}, 'Game6': {'role': 'B', 'decision': 'cooperate for mutual gain'}, 'Game7': {'role': 'A', 'decision': 'prioritize fairness'}}"
+51,"{
+    ""subjectID"": ""A123456"",
+    ""age"": 27,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""date"": ""2022-09-15"",
+            ""amount"": 50,
+            ""organization"": ""Red Cross""
+        },
+        {
+            ""date"": ""2023-03-22"",
+            ""amount"": 20,
+            ""organization"": ""Local Food Bank""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": 1,
+            ""role"": ""A"",
+            ""description"": ""Prioritized cooperation for mutual benefit""
+        },
+        {
+            ""game"": 2,
+            ""role"": ""B"",
+            ""description"": ""Reciprocated the decision made by Player A""
+        },
+        {
+            ""game"": 3,
+            ""role"": ""A"",
+            ""description"": ""Tested trust levels with a moderate offer""
+        },
+        {
+            ""game"": 4,
+            ""role"": ""B"",
+            ""description"": ""Adjusted decision according to Player A's trust level""
+        },
+        {
+            ""game"": 5,
+            ""role"": ""A"",
+            ""description"": ""Maximized own benefit while leaving some for Player B""
+        },
+        {
+            ""game"": 6,
+            ""role"": ""A"",
+            ""description"": ""Attempted to find balance between fairness and self-interest""
+        },
+        {
+            ""game"": 7,
+            ""role"": ""B"",
+            ""description"": ""Strategically matched Player A's decision to maintain fairness""
+        }
+    ]
+}",A123456,27,Female,2,"[{'game': 1, 'role': 'A', 'description': 'Prioritized cooperation for mutual benefit'}, {'game': 2, 'role': 'B', 'description': 'Reciprocated the decision made by Player A'}, {'game': 3, 'role': 'A', 'description': 'Tested trust levels with a moderate offer'}, {'game': 4, 'role': 'B', 'description': ""Adjusted decision according to Player A's trust level""}, {'game': 5, 'role': 'A', 'description': 'Maximized own benefit while leaving some for Player B'}, {'game': 6, 'role': 'A', 'description': 'Attempted to find balance between fairness and self-interest'}, {'game': 7, 'role': 'B', 'description': ""Strategically matched Player A's decision to maintain fairness""}]"
+52,"{
+  ""subjectID"": ""ABC123"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""charity"": ""Red Cross"", ""amount"": 50},
+    {""charity"": ""Save the Children"", ""amount"": 30},
+    {""charity"": ""World Wildlife Fund"", ""amount"": 40}
+  ],
+  ""strategy"": [
+    {""game1"": ""Tit-for-Tat""},
+    {""game2"": ""Always Cooperate""},
+    {""game3"": ""Random Choice""},
+    {""game4"": ""Grim Trigger""},
+    {""game5"": ""Tit-for-Tat with forgiveness""},
+    {""game6"": ""Always Defect""},
+    {""game7"": ""Mixed Strategy (70% Cooperate, 30% Defect)""}
+  ]
+}",ABC123,29,Female,2,"[{'game1': 'Tit-for-Tat'}, {'game2': 'Always Cooperate'}, {'game3': 'Random Choice'}, {'game4': 'Grim Trigger'}, {'game5': 'Tit-for-Tat with forgiveness'}, {'game6': 'Always Defect'}, {'game7': 'Mixed Strategy (70% Cooperate, 30% Defect)'}]"
+53,"{
+  ""subjectID"": ""1234567890ABC"",
+  ""age"": 26,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2023-01-15""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 30,
+      ""date"": ""2022-06-23""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Split Equally""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Trust""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Tit-for-Tat""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Maximize Own Payoff""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Random Choice""
+    }
+  ]
+}",1234567890ABC,26,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Split Equally'}, {'game': 4, 'role': 'B', 'decision': 'Trust'}, {'game': 5, 'role': 'A', 'decision': 'Tit-for-Tat'}, {'game': 6, 'role': 'B', 'decision': 'Maximize Own Payoff'}, {'game': 7, 'role': 'A', 'decision': 'Random Choice'}]"
+54,"{
+  ""subjectID"": ""A1B2C3D4"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Cancer Research"",
+      ""amount"": 50
+    },
+    {
+      ""organization"": ""Local Food Bank"",
+      ""amount"": 20
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    }
+  ]
+}",A1B2C3D4,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Cooperate'}, {'game': 4, 'role': 'B', 'decision': 'Defect'}, {'game': 5, 'role': 'A', 'decision': 'Cooperate'}, {'game': 6, 'role': 'B', 'decision': 'Defect'}, {'game': 7, 'role': 'A', 'decision': 'Cooperate'}]"
+55,"{
+  ""subjectID"": ""subj_001"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""organization"": ""Red Cross"", ""amount"": 50, ""date"": ""2023-05-12""},
+    {""organization"": ""UNICEF"", ""amount"": 30, ""date"": ""2022-11-23""},
+    {""organization"": ""Local Food Bank"", ""amount"": 20, ""date"": ""2023-01-15""}
+  ],
+  ""strategy"": [
+    {""gameID"": 1, ""role"": ""A"", ""decision"": ""Cooperate"", ""reasoning"": ""Believes in mutual benefit and trust.""},
+    {""gameID"": 2, ""role"": ""B"", ""decision"": ""Defect"", ""reasoning"": ""Suspicious of counterpart's intentions.""},
+    {""gameID"": 3, ""role"": ""A"", ""decision"": ""Cooperate"", ""reasoning"": ""Long-term payoff strategy.""},
+    {""gameID"": 4, ""role"": ""B"", ""decision"": ""Cooperate"", ""reasoning"": ""Trust built over previous interactions.""},
+    {""gameID"": 5, ""role"": ""A"", ""decision"": ""Defect"", ""reasoning"": ""Decided to test limits of other player.""},
+    {""gameID"": 6, ""role"": ""B"", ""decision"": ""Cooperate"", ""reasoning"": ""Predicts opponent will cooperate.""},
+    {""gameID"": 7, ""role"": ""A"", ""decision"": ""Cooperate"", ""reasoning"": ""Focuses on reputation and trustworthiness.""}
+  ]
+}",subj_001,29,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate', 'reasoning': 'Believes in mutual benefit and trust.'}, {'gameID': 2, 'role': 'B', 'decision': 'Defect', 'reasoning': ""Suspicious of counterpart's intentions.""}, {'gameID': 3, 'role': 'A', 'decision': 'Cooperate', 'reasoning': 'Long-term payoff strategy.'}, {'gameID': 4, 'role': 'B', 'decision': 'Cooperate', 'reasoning': 'Trust built over previous interactions.'}, {'gameID': 5, 'role': 'A', 'decision': 'Defect', 'reasoning': 'Decided to test limits of other player.'}, {'gameID': 6, 'role': 'B', 'decision': 'Cooperate', 'reasoning': 'Predicts opponent will cooperate.'}, {'gameID': 7, 'role': 'A', 'decision': 'Cooperate', 'reasoning': 'Focuses on reputation and trustworthiness.'}]"
+56,"{
+    ""subjectID"": ""A1234567"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""organization"": ""Red Cross"",
+            ""amount"": 50,
+            ""date"": ""2022-05-15""
+        },
+        {
+            ""organization"": ""Local Food Bank"",
+            ""amount"": 25,
+            ""date"": ""2022-11-22""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": 1,
+            ""role"": ""A"",
+            ""strategy"": ""Cooperate""
+        },
+        {
+            ""game"": 2,
+            ""role"": ""B"",
+            ""strategy"": ""Defect""
+        },
+        {
+            ""game"": 3,
+            ""role"": ""A"",
+            ""strategy"": ""Tit-for-Tat""
+        },
+        {
+            ""game"": 4,
+            ""role"": ""B"",
+            ""strategy"": ""Always Cooperate""
+        },
+        {
+            ""game"": 5,
+            ""role"": ""A"",
+            ""strategy"": ""Random""
+        },
+        {
+            ""game"": 6,
+            ""role"": ""B"",
+            ""strategy"": ""Grim Trigger""
+        },
+        {
+            ""game"": 7,
+            ""role"": ""A"",
+            ""strategy"": ""Win-Stay, Lose-Shift""
+        }
+    ]
+}",A1234567,28,Female,2,"[{'game': 1, 'role': 'A', 'strategy': 'Cooperate'}, {'game': 2, 'role': 'B', 'strategy': 'Defect'}, {'game': 3, 'role': 'A', 'strategy': 'Tit-for-Tat'}, {'game': 4, 'role': 'B', 'strategy': 'Always Cooperate'}, {'game': 5, 'role': 'A', 'strategy': 'Random'}, {'game': 6, 'role': 'B', 'strategy': 'Grim Trigger'}, {'game': 7, 'role': 'A', 'strategy': 'Win-Stay, Lose-Shift'}]"
+57,"{
+  ""subjectID"": ""participant_67342"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-11-15""
+    },
+    {
+      ""organization"": ""UNICEF"",
+      ""amount"": 30,
+      ""date"": ""2023-04-05""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    }
+  ]
+}",participant_67342,29,female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Cooperate'}, {'game': 4, 'role': 'B', 'decision': 'Defect'}, {'game': 5, 'role': 'A', 'decision': 'Cooperate'}, {'game': 6, 'role': 'B', 'decision': 'Defect'}, {'game': 7, 'role': 'A', 'decision': 'Cooperate'}]"
+58,"{
+  ""subjectID"": ""XYZ123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-06-15""
+    },
+    {
+      ""organization"": ""WWF"",
+      ""amount"": 30,
+      ""date"": ""2022-09-10""
+    },
+    {
+      ""organization"": ""Local Animal Shelter"",
+      ""amount"": 20,
+      ""date"": ""2023-01-05""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameNumber"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameNumber"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Retaliate""
+    },
+    {
+      ""gameNumber"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameNumber"": 4,
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""gameNumber"": 5,
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate""
+    },
+    {
+      ""gameNumber"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameNumber"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Split""
+    }
+  ]
+}",XYZ123456,29,Female,2,"[{'gameNumber': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameNumber': 2, 'role': 'B', 'decision': 'Retaliate'}, {'gameNumber': 3, 'role': 'A', 'decision': 'Cooperate'}, {'gameNumber': 4, 'role': 'A', 'decision': 'Defect'}, {'gameNumber': 5, 'role': 'B', 'decision': 'Reciprocate'}, {'gameNumber': 6, 'role': 'B', 'decision': 'Cooperate'}, {'gameNumber': 7, 'role': 'A', 'decision': 'Split'}]"
+59,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 1,
+  ""donation"": [
+    {
+      ""year"": 2021,
+      ""amount"": 100,
+      ""organization"": ""Environmental Defense Fund""
+    },
+    {
+      ""year"": 2022,
+      ""amount"": 150,
+      ""organization"": ""Doctors Without Borders""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match A's decision""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""maximize own payoff""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""match A's decision""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    }
+  ]
+}",A12345,29,Female,1,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 2, 'role': 'B', 'decision': ""match A's decision""}, {'gameID': 3, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 4, 'role': 'B', 'decision': 'maximize own payoff'}, {'gameID': 5, 'role': 'A', 'decision': 'defect'}, {'gameID': 6, 'role': 'B', 'decision': ""match A's decision""}, {'gameID': 7, 'role': 'A', 'decision': 'cooperate'}]"
+60,"{
+  ""subjectID"": ""SUB123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 30
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": ""Game1"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameID"": ""Game2"",
+      ""role"": ""B"",
+      ""decision"": ""Match A's Previous Decision""
+    },
+    {
+      ""gameID"": ""Game3"",
+      ""role"": ""A"",
+      ""decision"": ""Altruistic""
+    },
+    {
+      ""gameID"": ""Game4"",
+      ""role"": ""B"",
+      ""decision"": ""Tit for Tat""
+    },
+    {
+      ""gameID"": ""Game5"",
+      ""role"": ""A"",
+      ""decision"": ""Randomized""
+    },
+    {
+      ""gameID"": ""Game6"",
+      ""role"": ""A"",
+      ""decision"": ""Maximize Joint Payoff""
+    },
+    {
+      ""gameID"": ""Game7"",
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate""
+    }
+  ]
+}",SUB123456,29,Female,2,"[{'gameID': 'Game1', 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 'Game2', 'role': 'B', 'decision': ""Match A's Previous Decision""}, {'gameID': 'Game3', 'role': 'A', 'decision': 'Altruistic'}, {'gameID': 'Game4', 'role': 'B', 'decision': 'Tit for Tat'}, {'gameID': 'Game5', 'role': 'A', 'decision': 'Randomized'}, {'gameID': 'Game6', 'role': 'A', 'decision': 'Maximize Joint Payoff'}, {'gameID': 'Game7', 'role': 'B', 'decision': 'Reciprocate'}]"
+61,"{
+    ""subjectID"": ""P157"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""organization"": ""Red Cross"",
+            ""amount"": 50,
+            ""date"": ""2022-05-14""
+        },
+        {
+            ""organization"": ""UNICEF"",
+            ""amount"": 25,
+            ""date"": ""2021-12-10""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": 1,
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        },
+        {
+            ""game"": 2,
+            ""role"": ""B"",
+            ""decision"": ""Match""
+        },
+        {
+            ""game"": 3,
+            ""role"": ""A"",
+            ""decision"": ""Defend""
+        },
+        {
+            ""game"": 4,
+            ""role"": ""B"",
+            ""decision"": ""Trust""
+        },
+        {
+            ""game"": 5,
+            ""role"": ""A"",
+            ""decision"": ""Compete""
+        },
+        {
+            ""game"": 6,
+            ""role"": ""B"",
+            ""decision"": ""Reciprocate""
+        },
+        {
+            ""game"": 7,
+            ""role"": ""A"",
+            ""decision"": ""Random""
+        }
+    ]
+}",P157,28,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Match'}, {'game': 3, 'role': 'A', 'decision': 'Defend'}, {'game': 4, 'role': 'B', 'decision': 'Trust'}, {'game': 5, 'role': 'A', 'decision': 'Compete'}, {'game': 6, 'role': 'B', 'decision': 'Reciprocate'}, {'game': 7, 'role': 'A', 'decision': 'Random'}]"
+62,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Save the Children"",
+      ""amount"": 50
+    },
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 30
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Split evenly""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Match other""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Randomize""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Tit-for-tat""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Maximize own payoff""
+    }
+  ]
+}",A12345,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Split evenly'}, {'game': 4, 'role': 'B', 'decision': 'Match other'}, {'game': 5, 'role': 'A', 'decision': 'Randomize'}, {'game': 6, 'role': 'B', 'decision': 'Tit-for-tat'}, {'game': 7, 'role': 'A', 'decision': 'Maximize own payoff'}]"
+63,"{
+  ""subjectID"": ""A37392BC"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""history"": [
+      {
+        ""organization"": ""Red Cross"",
+        ""amount"": 50,
+        ""frequency"": ""annual""
+      },
+      {
+        ""organization"": ""Local Animal Shelter"",
+        ""amount"": 20,
+        ""frequency"": ""bi-annual""
+      },
+      {
+        ""organization"": ""Environmental Fund"",
+        ""amount"": 100,
+        ""frequency"": ""annual""
+      }
+    ]
+  },
+  ""strategy"": {
+    ""game1"": ""Tit-for-Tat"",
+    ""game2"": ""Cooperative"",
+    ""game3"": ""Random"",
+    ""game4"": ""Aggressive"",
+    ""game5"": ""Altruistic"",
+    ""game6"": ""Defensive"",
+    ""game7"": ""Mixed""
+  }
+}",A37392BC,29,Female,2,"{'game1': 'Tit-for-Tat', 'game2': 'Cooperative', 'game3': 'Random', 'game4': 'Aggressive', 'game5': 'Altruistic', 'game6': 'Defensive', 'game7': 'Mixed'}"
+64,"{
+  ""subjectID"": ""63F8A9B2"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""year"": 2021,
+      ""amount"": 50,
+      ""organization"": ""Red Cross""
+    },
+    {
+      ""year"": 2022,
+      ""amount"": 75,
+      ""organization"": ""Habitat for Humanity""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""split equally""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""compete""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""accept""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""compete""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""decline""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    }
+  ]
+}",63F8A9B2,29,female,2,"[{'game': 1, 'role': 'A', 'decision': 'cooperate'}, {'game': 2, 'role': 'B', 'decision': 'split equally'}, {'game': 3, 'role': 'A', 'decision': 'compete'}, {'game': 4, 'role': 'B', 'decision': 'accept'}, {'game': 5, 'role': 'A', 'decision': 'compete'}, {'game': 6, 'role': 'B', 'decision': 'decline'}, {'game': 7, 'role': 'A', 'decision': 'cooperate'}]"
+65,"{
+  ""subjectID"": ""A12345"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalAmount"": 150,
+    ""charities"": [
+      {""name"": ""Red Cross"", ""amount"": 50},
+      {""name"": ""Doctors Without Borders"", ""amount"": 50},
+      {""name"": ""World Wildlife Fund"", ""amount"": 50}
+    ]
+  },
+  ""strategy"": {
+    ""Game 1"": {
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    ""Game 2"": {
+      ""role"": ""B"",
+      ""decision"": ""Match player's prior move""
+    },
+    ""Game 3"": {
+      ""role"": ""A"",
+      ""decision"": ""Tit for Tat""
+    },
+    ""Game 4"": {
+      ""role"": ""B"",
+      ""decision"": ""Altruistic""
+    },
+    ""Game 5"": {
+      ""role"": ""A"",
+      ""decision"": ""Random""
+    },
+    ""Game 6"": {
+      ""role"": ""B"",
+      ""decision"": ""Conditional Cooperation""
+    },
+    ""Game 7"": {
+      ""role"": ""A"",
+      ""decision"": ""Maximize Combined Payoff""
+    }
+  }
+}",A12345,29,Female,2,"{'Game 1': {'role': 'A', 'decision': 'Cooperate'}, 'Game 2': {'role': 'B', 'decision': ""Match player's prior move""}, 'Game 3': {'role': 'A', 'decision': 'Tit for Tat'}, 'Game 4': {'role': 'B', 'decision': 'Altruistic'}, 'Game 5': {'role': 'A', 'decision': 'Random'}, 'Game 6': {'role': 'B', 'decision': 'Conditional Cooperation'}, 'Game 7': {'role': 'A', 'decision': 'Maximize Combined Payoff'}}"
+66,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalDonated"": 150,
+    ""charities"": [""Red Cross"", ""World Wildlife Fund"", ""Local Food Bank""]
+  },
+  ""strategy"": {
+    ""game1"": ""Tit-for-Tat"",
+    ""game2"": ""Random"",
+    ""game3"": ""Always Cooperate"",
+    ""game4"": ""Grim Trigger"",
+    ""game5"": ""Tit-for-Tat"",
+    ""game6"": ""Random"",
+    ""game7"": ""Always Defect""
+  }
+}",P123456,28,Female,2,"{'game1': 'Tit-for-Tat', 'game2': 'Random', 'game3': 'Always Cooperate', 'game4': 'Grim Trigger', 'game5': 'Tit-for-Tat', 'game6': 'Random', 'game7': 'Always Defect'}"
+67,"{
+    ""subjectID"": ""P123456"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""charity"": ""Local Food Bank"",
+            ""amount"": 50,
+            ""date"": ""2022-12-14""
+        },
+        {
+            ""charity"": ""Global Health Organization"",
+            ""amount"": 75,
+            ""date"": ""2023-03-22""
+        }
+    ],
+    ""strategy"": {
+        ""Game 1"": ""Tit-for-Tat"",
+        ""Game 2"": ""Maximize Own Payoff"",
+        ""Game 3"": ""Random Choice"",
+        ""Game 4"": ""Cooperate If Previous Cooperation"",
+        ""Game 5"": ""Alternate Choices"",
+        ""Game 6"": ""Altruistic Decision"",
+        ""Game 7"": ""Minimize Loss""
+    }
+}",P123456,29,Female,2,"{'Game 1': 'Tit-for-Tat', 'Game 2': 'Maximize Own Payoff', 'Game 3': 'Random Choice', 'Game 4': 'Cooperate If Previous Cooperation', 'Game 5': 'Alternate Choices', 'Game 6': 'Altruistic Decision', 'Game 7': 'Minimize Loss'}"
+68,"{
+    ""subjectID"": ""subj12345"",
+    ""age"": 29,
+    ""gender"": ""female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""date"": ""2022-05-20"",
+            ""amount"": 50,
+            ""organization"": ""Red Cross""
+        },
+        {
+            ""date"": ""2023-07-15"",
+            ""amount"": 30,
+            ""organization"": ""Doctors Without Borders""
+        }
+    ],
+    ""strategy"": {
+        ""game1"": ""cooperate"",
+        ""game2"": ""defect"",
+        ""game3"": ""random"",
+        ""game4"": ""tit-for-tat"",
+        ""game5"": ""cooperate"",
+        ""game6"": ""maximize min payoff"",
+        ""game7"": ""altruistic""
+    }
+}",subj12345,29,female,2,"{'game1': 'cooperate', 'game2': 'defect', 'game3': 'random', 'game4': 'tit-for-tat', 'game5': 'cooperate', 'game6': 'maximize min payoff', 'game7': 'altruistic'}"
+69,"{
+  ""subjectID"": ""abc123xyz"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""amount"": 50, ""date"": ""2022-06-15""},
+    {""amount"": 30, ""date"": ""2023-01-22""},
+    {""amount"": 20, ""date"": ""2023-03-10""}
+  ],
+  ""strategy"": {
+    ""game1"": ""tit-for-tat"",
+    ""game2"": ""always cooperate"",
+    ""game3"": ""random choice"",
+    ""game4"": ""always defect"",
+    ""game5"": ""conditional cooperation"",
+    ""game6"": ""risk-averse"",
+    ""game7"": ""maximin strategy""
+  }
+}",abc123xyz,29,female,2,"{'game1': 'tit-for-tat', 'game2': 'always cooperate', 'game3': 'random choice', 'game4': 'always defect', 'game5': 'conditional cooperation', 'game6': 'risk-averse', 'game7': 'maximin strategy'}"
+70,"{
+  ""subjectID"": ""S12345"",
+  ""age"": 27,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 1,
+  ""donation"": [
+    {
+      ""amount"": 20,
+      ""date"": ""2022-03-15"",
+      ""cause"": ""Education""
+    },
+    {
+      ""amount"": 35,
+      ""date"": ""2022-07-22"",
+      ""cause"": ""Healthcare""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Tit-for-Tat""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Maximize Self-Payoff""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Randomize""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Match Opponent's Previous Decision""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Minimize Opponent's Loss""
+    }
+  ]
+}",S12345,27,Female,1,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'Defect'}, {'gameID': 3, 'role': 'A', 'decision': 'Tit-for-Tat'}, {'gameID': 4, 'role': 'B', 'decision': 'Maximize Self-Payoff'}, {'gameID': 5, 'role': 'A', 'decision': 'Randomize'}, {'gameID': 6, 'role': 'B', 'decision': ""Match Opponent's Previous Decision""}, {'gameID': 7, 'role': 'A', 'decision': ""Minimize Opponent's Loss""}]"
+71,"{
+  ""subjectID"": ""subj_123456"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""Red Cross"": 50,
+    ""Local Food Bank"": 30,
+    ""Animal Shelter"": 20
+  },
+  ""strategy"": {
+    ""Game1"": {
+      ""decisionRole"": ""A"",
+      ""strategyUsed"": ""Tit-for-Tat"",
+      ""decisionDetails"": ""Matched the other participant's previous decision when known; defaulted to cooperation otherwise.""
+    },
+    ""Game2"": {
+      ""decisionRole"": ""B"",
+      ""strategyUsed"": ""Maximizing Payoff"",
+      ""decisionDetails"": ""Chose the option that maximized personal payoff, considering both immediate and potential future gains.""
+    },
+    ""Game3"": {
+      ""decisionRole"": ""A"",
+      ""strategyUsed"": ""Fair Split"",
+      ""decisionDetails"": ""Evenly split the resources offered to ensure fairness.""
+    },
+    ""Game4"": {
+      ""decisionRole"": ""B"",
+      ""strategyUsed"": ""Reciprocal Altruism"",
+      ""decisionDetails"": ""Based decision on whether mutual benefits could be achieved, taking into account prior cooperation levels.""
+    },
+    ""Game5"": {
+      ""decisionRole"": ""A"",
+      ""strategyUsed"": ""Random"",
+      ""decisionDetails"": ""Randomly chose among the available options to introduce unpredictability.""
+    },
+    ""Game6"": {
+      ""decisionRole"": ""B"",
+      ""strategyUsed"": ""Risk-Averse"",
+      ""decisionDetails"": ""Selected the option with the least risk, avoiding high variability outcomes.""
+    },
+    ""Game7"": {
+      ""decisionRole"": ""A"",
+      ""strategyUsed"": ""Trust but Verify"",
+      ""decisionDetails"": ""Extended initial trust but adjusted decisions based on observed behavior of the counterpart.""
+    }
+  }
+}",subj_123456,29,Female,2,"{'Game1': {'decisionRole': 'A', 'strategyUsed': 'Tit-for-Tat', 'decisionDetails': ""Matched the other participant's previous decision when known; defaulted to cooperation otherwise.""}, 'Game2': {'decisionRole': 'B', 'strategyUsed': 'Maximizing Payoff', 'decisionDetails': 'Chose the option that maximized personal payoff, considering both immediate and potential future gains.'}, 'Game3': {'decisionRole': 'A', 'strategyUsed': 'Fair Split', 'decisionDetails': 'Evenly split the resources offered to ensure fairness.'}, 'Game4': {'decisionRole': 'B', 'strategyUsed': 'Reciprocal Altruism', 'decisionDetails': 'Based decision on whether mutual benefits could be achieved, taking into account prior cooperation levels.'}, 'Game5': {'decisionRole': 'A', 'strategyUsed': 'Random', 'decisionDetails': 'Randomly chose among the available options to introduce unpredictability.'}, 'Game6': {'decisionRole': 'B', 'strategyUsed': 'Risk-Averse', 'decisionDetails': 'Selected the option with the least risk, avoiding high variability outcomes.'}, 'Game7': {'decisionRole': 'A', 'strategyUsed': 'Trust but Verify', 'decisionDetails': 'Extended initial trust but adjusted decisions based on observed behavior of the counterpart.'}}"
+72,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""amount"": 50,
+      ""organization"": ""Red Cross"",
+      ""date"": ""2023-02-15""
+    },
+    {
+      ""amount"": 30,
+      ""organization"": ""Doctors Without Borders"",
+      ""date"": ""2022-11-20""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Game 1"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 2"",
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": ""Game 3"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 4"",
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": ""Game 5"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 6"",
+      ""role"": ""B"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 7"",
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    }
+  ]
+}",P123456,29,female,2,"[{'game': 'Game 1', 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 2', 'role': 'B', 'decision': 'Defect'}, {'game': 'Game 3', 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 4', 'role': 'B', 'decision': 'Defect'}, {'game': 'Game 5', 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 6', 'role': 'B', 'decision': 'Cooperate'}, {'game': 'Game 7', 'role': 'A', 'decision': 'Defect'}]"
+73,"{
+    ""subjectID"": ""SUB123456"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {""organization"": ""Red Cross"", ""amount"": 50},
+        {""organization"": ""WWF"", ""amount"": 30},
+        {""organization"": ""Local Food Bank"", ""amount"": 20}
+    ],
+    ""strategy"": [
+        {
+            ""game"": 1,
+            ""role"": ""A"",
+            ""strategyDescription"": ""Cooperative strategy, trying to maximize joint payoffs rather than individual payoffs.""
+        },
+        {
+            ""game"": 2,
+            ""role"": ""B"",
+            ""strategyDescription"": ""Tit-for-tat strategy, mimicking the previous behavior of the match once known.""
+        },
+        {
+            ""game"": 3,
+            ""role"": ""A"",
+            ""strategyDescription"": ""Randomization, mixing between competitive and cooperative choices to avoid predictability.""
+        },
+        {
+            ""game"": 4,
+            ""role"": ""B"",
+            ""strategyDescription"": ""Risk-averse strategy, prioritizing decisions that minimize potential losses.""
+        },
+        {
+            ""game"": 5,
+            ""role"": ""A"",
+            ""strategyDescription"": ""Maximizing personal benefit, making decisions to increase personal payoff irrespective of the match's outcome.""
+        },
+        {
+            ""game"": 6,
+            ""role"": ""B"",
+            ""strategyDescription"": ""Generous strategy, focusing on increasing the match's payoff even at a personal cost.""
+        },
+        {
+            ""game"": 7,
+            ""role"": ""A"",
+            ""strategyDescription"": ""Balanced approach, weighing the pros and cons of each decision to find an equilibrium between personal and joint payoffs.""
+        }
+    ]
+}",SUB123456,29,Female,2,"[{'game': 1, 'role': 'A', 'strategyDescription': 'Cooperative strategy, trying to maximize joint payoffs rather than individual payoffs.'}, {'game': 2, 'role': 'B', 'strategyDescription': 'Tit-for-tat strategy, mimicking the previous behavior of the match once known.'}, {'game': 3, 'role': 'A', 'strategyDescription': 'Randomization, mixing between competitive and cooperative choices to avoid predictability.'}, {'game': 4, 'role': 'B', 'strategyDescription': 'Risk-averse strategy, prioritizing decisions that minimize potential losses.'}, {'game': 5, 'role': 'A', 'strategyDescription': ""Maximizing personal benefit, making decisions to increase personal payoff irrespective of the match's outcome.""}, {'game': 6, 'role': 'B', 'strategyDescription': ""Generous strategy, focusing on increasing the match's payoff even at a personal cost.""}, {'game': 7, 'role': 'A', 'strategyDescription': 'Balanced approach, weighing the pros and cons of each decision to find an equilibrium between personal and joint payoffs.'}]"
+74,"{
+  ""subjectID"": ""S12345"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 1,
+  ""donation"": [
+    {
+      ""amount"": 50,
+      ""organization"": ""Red Cross"",
+      ""date"": ""2021-06-15""
+    },
+    {
+      ""amount"": 30,
+      ""organization"": ""World Wildlife Fund"",
+      ""date"": ""2022-04-22""
+    },
+    {
+      ""amount"": 25,
+      ""organization"": ""Doctors Without Borders"",
+      ""date"": ""2022-11-30""
+    }
+  ],
+  ""strategy"": {
+    ""Game 1"": ""Tit for Tat"",
+    ""Game 2"": ""Always Cooperate"",
+    ""Game 3"": ""Random Choice"",
+    ""Game 4"": ""Grim Trigger"",
+    ""Game 5"": ""Tit for Tat"",
+    ""Game 6"": ""Always Defect"",
+    ""Game 7"": ""Tit for Tat""
+  }
+}",S12345,28,Female,1,"{'Game 1': 'Tit for Tat', 'Game 2': 'Always Cooperate', 'Game 3': 'Random Choice', 'Game 4': 'Grim Trigger', 'Game 5': 'Tit for Tat', 'Game 6': 'Always Defect', 'Game 7': 'Tit for Tat'}"
+75,"{
+  ""subjectID"": ""A921JZ34"",
+  ""age"": 28,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""charity"": ""Health"",
+    ""amount"": 50,
+    ""frequency"": ""annually""
+  },
+  ""strategy"": {
+    ""game1"": ""tit-for-tat"",
+    ""game2"": ""random"",
+    ""game3"": ""cooperate"",
+    ""game4"": ""aggressive"",
+    ""game5"": ""defensive"",
+    ""game6"": ""altruistic"",
+    ""game7"": ""competitive""
+  }
+}",A921JZ34,28,female,2,"{'game1': 'tit-for-tat', 'game2': 'random', 'game3': 'cooperate', 'game4': 'aggressive', 'game5': 'defensive', 'game6': 'altruistic', 'game7': 'competitive'}"
+76,"{
+  ""subjectID"": ""5678XYZ"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""2022"": 150,
+    ""2021"": 100,
+    ""2020"": 200
+  },
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match A's offer""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""gameID"": 4,
+      ""role"": ""B"",
+      ""decision"": ""accept""
+    },
+    {
+      ""gameID"": 5,
+      ""role"": ""A"",
+      ""decision"": ""50-50 split""
+    },
+    {
+      ""gameID"": 6,
+      ""role"": ""B"",
+      ""decision"": ""compromise""
+    },
+    {
+      ""gameID"": 7,
+      ""role"": ""A"",
+      ""decision"": ""trust""
+    }
+  ]
+}",5678XYZ,29,female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 2, 'role': 'B', 'decision': ""match A's offer""}, {'gameID': 3, 'role': 'A', 'decision': 'defect'}, {'gameID': 4, 'role': 'B', 'decision': 'accept'}, {'gameID': 5, 'role': 'A', 'decision': '50-50 split'}, {'gameID': 6, 'role': 'B', 'decision': 'compromise'}, {'gameID': 7, 'role': 'A', 'decision': 'trust'}]"
+77,"{
+  ""subjectID"": ""AXR-1245"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""date"": ""2023-03-15"",
+      ""amount"": 50,
+      ""charity"": ""Red Cross""
+    },
+    {
+      ""date"": ""2022-12-08"",
+      ""amount"": 30,
+      ""charity"": ""Doctors Without Borders""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Match A's decision""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Split equally""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Take 60% if A gives at least 40%""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Always trust B""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate A's trust""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Maximize joint payoff""
+    }
+  ]
+}",AXR-1245,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': ""Match A's decision""}, {'game': 3, 'role': 'A', 'decision': 'Split equally'}, {'game': 4, 'role': 'B', 'decision': 'Take 60% if A gives at least 40%'}, {'game': 5, 'role': 'A', 'decision': 'Always trust B'}, {'game': 6, 'role': 'B', 'decision': ""Reciprocate A's trust""}, {'game': 7, 'role': 'A', 'decision': 'Maximize joint payoff'}]"
+78,"{
+  ""subjectID"": ""P20231015001"",
+  ""age"": 26,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""charitiesDonatedTo"": [""Red Cross"", ""UNICEF"", ""Doctors Without Borders""],
+    ""totalAmountDonated"": 150
+  },
+  ""strategy"": {
+    ""Game1"": ""Tit-for-tat"",
+    ""Game2"": ""Trust but verify"",
+    ""Game3"": ""Maximize personal payoff"",
+    ""Game4"": ""Cooperate if the other cooperates"",
+    ""Game5"": ""Randomize choices"",
+    ""Game6"": ""Equal split"",
+    ""Game7"": ""Minimize risk""
+  }
+}",P20231015001,26,Female,2,"{'Game1': 'Tit-for-tat', 'Game2': 'Trust but verify', 'Game3': 'Maximize personal payoff', 'Game4': 'Cooperate if the other cooperates', 'Game5': 'Randomize choices', 'Game6': 'Equal split', 'Game7': 'Minimize risk'}"
+79,"{
+  ""subjectID"": ""A123456789"",
+  ""age"": 28,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2022-01-15""
+    },
+    {
+      ""charity"": ""WWF"",
+      ""amount"": 30,
+      ""date"": ""2022-03-22""
+    },
+    {
+      ""charity"": ""Local Food Bank"",
+      ""amount"": 20,
+      ""date"": ""2022-05-10""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Defect""
+    }
+  ]
+}",A123456789,28,female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': 'Defect'}, {'game': 3, 'role': 'A', 'decision': 'Cooperate'}, {'game': 4, 'role': 'B', 'decision': 'Defect'}]"
+80,"{
+  ""subjectID"": ""P3457D"",
+  ""age"": 29,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Animal Shelter"",
+      ""amount"": 50,
+      ""date"": ""2022-06-15""
+    },
+    {
+      ""organization"": ""Food Bank"",
+      ""amount"": 30,
+      ""date"": ""2023-01-10""
+    },
+    {
+      ""organization"": ""Environmental Fund"",
+      ""amount"": 20,
+      ""date"": ""2023-07-21""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""gameID"": 1,
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": 2,
+      ""role"": ""B"",
+      ""decision"": ""match previous""
+    },
+    {
+      ""gameID"": 3,
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    }
+  ]
+}",P3457D,29,female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'match previous'}, {'gameID': 3, 'role': 'A', 'decision': 'defect'}]"
+81,"{
+    ""subjectID"": ""UID12345"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""amount"": 50,
+            ""organization"": ""Red Cross"",
+            ""date"": ""2022-03-15""
+        },
+        {
+            ""amount"": 30,
+            ""organization"": ""World Wildlife Fund"",
+            ""date"": ""2021-12-10""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""gameID"": 1,
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        },
+        {
+            ""gameID"": 2,
+            ""role"": ""B"",
+            ""decision"": ""Retaliate""
+        },
+        {
+            ""gameID"": 3,
+            ""role"": ""A"",
+            ""decision"": ""Defect""
+        },
+        {
+            ""gameID"": 4,
+            ""role"": ""B"",
+            ""decision"": ""Trust""
+        },
+        {
+            ""gameID"": 5,
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        },
+        {
+            ""gameID"": 6,
+            ""role"": ""B"",
+            ""decision"": ""Punish""
+        },
+        {
+            ""gameID"": 7,
+            ""role"": ""A"",
+            ""decision"": ""Defect""
+        }
+    ]
+}",UID12345,29,Female,2,"[{'gameID': 1, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 2, 'role': 'B', 'decision': 'Retaliate'}, {'gameID': 3, 'role': 'A', 'decision': 'Defect'}, {'gameID': 4, 'role': 'B', 'decision': 'Trust'}, {'gameID': 5, 'role': 'A', 'decision': 'Cooperate'}, {'gameID': 6, 'role': 'B', 'decision': 'Punish'}, {'gameID': 7, 'role': 'A', 'decision': 'Defect'}]"
+82,"{
+    ""subjectID"": ""A12345"",
+    ""age"": 27,
+    ""gender"": ""female"",
+    ""numberSiblings"": 2,
+    ""donation"": [
+        {
+            ""organization"": ""Red Cross"",
+            ""amount"": 50,
+            ""frequency"": ""annually""
+        },
+        {
+            ""organization"": ""Local Food Bank"",
+            ""amount"": 20,
+            ""frequency"": ""monthly""
+        }
+    ],
+    ""strategy"": [
+        {
+            ""game"": 1,
+            ""role"": ""A"",
+            ""decision"": ""maximize cooperation""
+        },
+        {
+            ""game"": 2,
+            ""role"": ""B"",
+            ""decision"": ""reciprocate based on A's action""
+        },
+        {
+            ""game"": 3,
+            ""role"": ""A"",
+            ""decision"": ""maximize personal gain""
+        },
+        {
+            ""game"": 4,
+            ""role"": ""B"",
+            ""decision"": ""maintain fairness""
+        },
+        {
+            ""game"": 5,
+            ""role"": ""A"",
+            ""decision"": ""random choice""
+        },
+        {
+            ""game"": 6,
+            ""role"": ""B"",
+            ""decision"": ""tit for tat""
+        },
+        {
+            ""game"": 7,
+            ""role"": ""A"",
+            ""decision"": ""balance between cooperation and personal gain""
+        }
+    ]
+}",A12345,27,female,2,"[{'game': 1, 'role': 'A', 'decision': 'maximize cooperation'}, {'game': 2, 'role': 'B', 'decision': ""reciprocate based on A's action""}, {'game': 3, 'role': 'A', 'decision': 'maximize personal gain'}, {'game': 4, 'role': 'B', 'decision': 'maintain fairness'}, {'game': 5, 'role': 'A', 'decision': 'random choice'}, {'game': 6, 'role': 'B', 'decision': 'tit for tat'}, {'game': 7, 'role': 'A', 'decision': 'balance between cooperation and personal gain'}]"
+83,"{
+  ""subjectID"": ""P123456"",
+  ""age"": 28,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""totalDonationAmount"": 500,
+    ""lastDonationDate"": ""2023-08-15"",
+    ""frequentCauses"": [""education"", ""healthcare""]
+  },
+  ""strategy"": [
+    {
+      ""gameID"": ""G1"",
+      ""role"": ""A"",
+      ""decision"": ""cooperate""
+    },
+    {
+      ""gameID"": ""G2"",
+      ""role"": ""B"",
+      ""decision"": ""match previous decision""
+    },
+    {
+      ""gameID"": ""G3"",
+      ""role"": ""A"",
+      ""decision"": ""defect""
+    },
+    {
+      ""gameID"": ""G4"",
+      ""role"": ""B"",
+      ""decision"": ""honest""
+    },
+    {
+      ""gameID"": ""G5"",
+      ""role"": ""A"",
+      ""decision"": ""random""
+    },
+    {
+      ""gameID"": ""G6"",
+      ""role"": ""B"",
+      ""decision"": ""reciprocate""
+    },
+    {
+      ""gameID"": ""G7"",
+      ""role"": ""A"",
+      ""decision"": ""analyze opponent""
+    }
+  ]
+}",P123456,28,female,2,"[{'gameID': 'G1', 'role': 'A', 'decision': 'cooperate'}, {'gameID': 'G2', 'role': 'B', 'decision': 'match previous decision'}, {'gameID': 'G3', 'role': 'A', 'decision': 'defect'}, {'gameID': 'G4', 'role': 'B', 'decision': 'honest'}, {'gameID': 'G5', 'role': 'A', 'decision': 'random'}, {'gameID': 'G6', 'role': 'B', 'decision': 'reciprocate'}, {'gameID': 'G7', 'role': 'A', 'decision': 'analyze opponent'}]"
+84,"{
+  ""subjectID"": ""S12345"",
+  ""age"": 27,
+  ""gender"": ""female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""date"": ""2023-01-15""
+    },
+    {
+      ""organization"": ""World Wildlife Fund"",
+      ""amount"": 30,
+      ""date"": ""2022-11-05""
+    },
+    {
+      ""organization"": ""Local Food Bank"",
+      ""amount"": 40,
+      ""date"": ""2022-03-22""
+    }
+  ],
+  ""strategy"": {
+    ""game1"": ""Tit for Tat"",
+    ""game2"": ""Random"",
+    ""game3"": ""Always Cooperate"",
+    ""game4"": ""Grim Trigger"",
+    ""game5"": ""Random"",
+    ""game6"": ""Tit for Tat"",
+    ""game7"": ""Always Defect""
+  }
+}",S12345,27,female,2,"{'game1': 'Tit for Tat', 'game2': 'Random', 'game3': 'Always Cooperate', 'game4': 'Grim Trigger', 'game5': 'Random', 'game6': 'Tit for Tat', 'game7': 'Always Defect'}"
+85,"{
+  ""subjectID"": ""subj_102938"",
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {""year"": 2020, ""amount"": 150},
+    {""year"": 2021, ""amount"": 200},
+    {""year"": 2022, ""amount"": 250}
+  ],
+  ""strategy"": [
+    {
+      ""game"": 1,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Long-term benefits outweigh short-term gains.""
+    },
+    {
+      ""game"": 2,
+      ""role"": ""B"",
+      ""decision"": ""Defect"",
+      ""rationale"": ""Minimizing loss in uncertain outcomes.""
+    },
+    {
+      ""game"": 3,
+      ""role"": ""A"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Building trust can lead to better overall results.""
+    },
+    {
+      ""game"": 4,
+      ""role"": ""B"",
+      ""decision"": ""Match A's prior choice"",
+      ""rationale"": ""Reciprocity ensures fairness.""
+    },
+    {
+      ""game"": 5,
+      ""role"": ""A"",
+      ""decision"": ""Defect"",
+      ""rationale"": ""Maximizing immediate payoff.""
+    },
+    {
+      ""game"": 6,
+      ""role"": ""B"",
+      ""decision"": ""Cooperate"",
+      ""rationale"": ""Potential for mutual benefit.""
+    },
+    {
+      ""game"": 7,
+      ""role"": ""A"",
+      ""decision"": ""Random"",
+      ""rationale"": ""Introducing unpredictability to assess reactions.""
+    }
+  ]
+}",subj_102938,29,Female,2,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate', 'rationale': 'Long-term benefits outweigh short-term gains.'}, {'game': 2, 'role': 'B', 'decision': 'Defect', 'rationale': 'Minimizing loss in uncertain outcomes.'}, {'game': 3, 'role': 'A', 'decision': 'Cooperate', 'rationale': 'Building trust can lead to better overall results.'}, {'game': 4, 'role': 'B', 'decision': ""Match A's prior choice"", 'rationale': 'Reciprocity ensures fairness.'}, {'game': 5, 'role': 'A', 'decision': 'Defect', 'rationale': 'Maximizing immediate payoff.'}, {'game': 6, 'role': 'B', 'decision': 'Cooperate', 'rationale': 'Potential for mutual benefit.'}, {'game': 7, 'role': 'A', 'decision': 'Random', 'rationale': 'Introducing unpredictability to assess reactions.'}]"
+86,"{
+  ""subjectID"": ""a7d62b2c-9f8b-4ef7-8a57-2fa1b9eec343"",
+  ""age"": 27,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""organization"": ""Red Cross"",
+      ""amount"": 50,
+      ""frequency"": ""once a year""
+    },
+    {
+      ""organization"": ""Local Food Bank"",
+      ""amount"": 100,
+      ""frequency"": ""twice a year""
+    }
+  ],
+  ""strategy"": [
+    {
+      ""game"": ""Game 1: Ultimatum Game"",
+      ""role"": ""A"",
+      ""decision"": ""Offer 40% of the endowment""
+    },
+    {
+      ""game"": ""Game 2: Trust Game"",
+      ""role"": ""B"",
+      ""decision"": ""Return 75% of the tripled amount""
+    },
+    {
+      ""game"": ""Game 3: Prisoner's Dilemma"",
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    {
+      ""game"": ""Game 4: Public Goods Game"",
+      ""role"": ""A"",
+      ""decision"": ""Contribute 25% of the endowment""
+    },
+    {
+      ""game"": ""Game 5: Dictator Game"",
+      ""role"": ""A"",
+      ""decision"": ""Give 30% of the endowment""
+    },
+    {
+      ""game"": ""Game 6: Stag Hunt Game"",
+      ""role"": ""A"",
+      ""decision"": ""Choose Stag""
+    },
+    {
+      ""game"": ""Game 7: Battle of the Sexes"",
+      ""role"": ""B"",
+      ""decision"": ""Choose Opera""
+    }
+  ]
+}",a7d62b2c-9f8b-4ef7-8a57-2fa1b9eec343,27,Female,2,"[{'game': 'Game 1: Ultimatum Game', 'role': 'A', 'decision': 'Offer 40% of the endowment'}, {'game': 'Game 2: Trust Game', 'role': 'B', 'decision': 'Return 75% of the tripled amount'}, {'game': ""Game 3: Prisoner's Dilemma"", 'role': 'A', 'decision': 'Cooperate'}, {'game': 'Game 4: Public Goods Game', 'role': 'A', 'decision': 'Contribute 25% of the endowment'}, {'game': 'Game 5: Dictator Game', 'role': 'A', 'decision': 'Give 30% of the endowment'}, {'game': 'Game 6: Stag Hunt Game', 'role': 'A', 'decision': 'Choose Stag'}, {'game': 'Game 7: Battle of the Sexes', 'role': 'B', 'decision': 'Choose Opera'}]"
+87,"{
+  ""subjectID"": ""A123456789"",
+  ""age"": 27,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": {
+    ""history"": [
+      {""year"": 2020, ""amount"": 150},
+      {""year"": 2021, ""amount"": 200},
+      {""year"": 2022, ""amount"": 180}
+    ]
+  },
+  ""strategy"": {
+    ""game1"": {
+      ""role"": ""A"",
+      ""decision"": ""Cooperate""
+    },
+    ""game2"": {
+      ""role"": ""B"",
+      ""decision"": ""Match A's decision""
+    },
+    ""game3"": {
+      ""role"": ""A"",
+      ""decision"": ""Defect""
+    },
+    ""game4"": {
+      ""role"": ""B"",
+      ""decision"": ""Tit-for-tat""
+    },
+    ""game5"": {
+      ""role"": ""A"",
+      ""decision"": ""Maximize personal payoff""
+    },
+    ""game6"": {
+      ""role"": ""B"",
+      ""decision"": ""Reciprocate positively""
+    },
+    ""game7"": {
+      ""role"": ""A"",
+      ""decision"": ""Equal split""
+    }
+  }
+}",A123456789,27,Female,2,"{'game1': {'role': 'A', 'decision': 'Cooperate'}, 'game2': {'role': 'B', 'decision': ""Match A's decision""}, 'game3': {'role': 'A', 'decision': 'Defect'}, 'game4': {'role': 'B', 'decision': 'Tit-for-tat'}, 'game5': {'role': 'A', 'decision': 'Maximize personal payoff'}, 'game6': {'role': 'B', 'decision': 'Reciprocate positively'}, 'game7': {'role': 'A', 'decision': 'Equal split'}}"
+88,"{
+  ""subjectID"": ""1234ABC"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": [
+    {
+      ""charity"": ""Red Cross"",
+      ""amount"": 50
+    },
+    {
+      ""charity"": ""UNICEF"",
+      ""amount"": 75
+    }
+  ],
+  ""strategy"": {
+    ""game1"": ""Tit-for-tat"",
+    ""game2"": ""Random"",
+    ""game3"": ""Maximize personal benefit"",
+    ""game4"": ""Equal split"",
+    ""game5"": ""Altruism"",
+    ""game6"": ""Minimax"",
+    ""game7"": ""Conditional cooperation""
+  }
+}",1234ABC,28,Female,2,"{'game1': 'Tit-for-tat', 'game2': 'Random', 'game3': 'Maximize personal benefit', 'game4': 'Equal split', 'game5': 'Altruism', 'game6': 'Minimax', 'game7': 'Conditional cooperation'}"
+89,"{
+  ""subjectID"": ""XD123456"",
+  ""age"": 29,
+  ""gender"": ""Male"",
+  ""numberSiblings"": 1,
+  ""donation"": [
+    {""charity"": ""Red Cross"", ""amount"": 50},
+    {""charity"": ""UNICEF"", ""amount"": 30},
+    {""charity"": ""Doctors Without Borders"", ""amount"": 20}
+  ],
+  ""strategy"": [
+    {""game"": 1, ""role"": ""A"", ""decision"": ""Cooperate""},
+    {""game"": 2, ""role"": ""B"", ""decision"": ""Match A's decision""},
+    {""game"": 3, ""role"": ""A"", ""decision"": ""Defect""},
+    {""game"": 4, ""role"": ""B"", ""decision"": ""Random""},
+    {""game"": 5, ""role"": ""A"", ""decision"": ""Maximize own payoff""},
+    {""game"": 6, ""role"": ""B"", ""decision"": ""Minimize difference""},
+    {""game"": 7, ""role"": ""A"", ""decision"": ""Tit-for-tat""}
+  ]
+}",XD123456,29,Male,1,"[{'game': 1, 'role': 'A', 'decision': 'Cooperate'}, {'game': 2, 'role': 'B', 'decision': ""Match A's decision""}, {'game': 3, 'role': 'A', 'decision': 'Defect'}, {'game': 4, 'role': 'B', 'decision': 'Random'}, {'game': 5, 'role': 'A', 'decision': 'Maximize own payoff'}, {'game': 6, 'role': 'B', 'decision': 'Minimize difference'}, {'game': 7, 'role': 'A', 'decision': 'Tit-for-tat'}]"
+90,"{
+    ""subjectID"": ""AB1234"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": {
+        ""nonProfit"": ""Global Health Initiative"",
+        ""amount"": 150
+    },
+    ""strategy"": {
+        ""game1"": {
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        },
+        ""game2"": {
+            ""role"": ""B"",
+            ""decision"": ""Defect""
+        },
+        ""game3"": {
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        },
+        ""game4"": {
+            ""role"": ""A"",
+            ""decision"": ""Defect""
+        },
+        ""game5"": {
+            ""role"": ""B"",
+            ""decision"": ""Cooperate""
+        },
+        ""game6"": {
+            ""role"": ""B"",
+            ""decision"": ""Defect""
+        },
+        ""game7"": {
+            ""role"": ""A"",
+            ""decision"": ""Cooperate""
+        }
+    }
+}",AB1234,29,Female,2,"{'game1': {'role': 'A', 'decision': 'Cooperate'}, 'game2': {'role': 'B', 'decision': 'Defect'}, 'game3': {'role': 'A', 'decision': 'Cooperate'}, 'game4': {'role': 'A', 'decision': 'Defect'}, 'game5': {'role': 'B', 'decision': 'Cooperate'}, 'game6': {'role': 'B', 'decision': 'Defect'}, 'game7': {'role': 'A', 'decision': 'Cooperate'}}"

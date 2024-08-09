@@ -1,0 +1,729 @@
+,response1,subjectID,age,gender,numberofsiblings,gamestrategy
+0,"{
+    ""subjectID"": ""2760508-1"",
+    ""age"": 26,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.""
+}",2760508-1,26,Male,1,Try to earn as much money as possible for myself.
+1,"{
+    ""subjectID"": ""8095289-6"",
+    ""age"": 29,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;""
+}",8095289-6,29,Male,1,Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;
+2,"{
+    ""subjectID"": ""101"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to earn as much money as possible for me and my match.""
+}",101,25,Female,1,Try to earn as much money as possible for myself.;Try to earn as much money as possible for me and my match.
+3,"{
+    ""subjectID"": ""1018"",
+    ""age"": 47,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 5,
+    ""donation"": 20.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",1018,47,Female,5,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+4,"{
+    ""subjectID"": ""5015330-1"",
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",5015330-1,22,Female,3,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+5,"{
+    ""subjectID"": ""050310PQ-2"",
+    ""age"": 28,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to earn as much money as possible for me and my match.""
+}",050310PQ-2,28,Male,1,Try to earn as much money as possible for myself.;Try to earn as much money as possible for me and my match.
+6,"{
+    ""subjectID"": ""002"",
+    ""age"": 24,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to choose equal payoff for me and my match.""
+}",002,24,Female,1,Try to earn as much money as possible for myself.;Try to choose equal payoff for me and my match.
+7,"{
+    ""subjectID"": ""001"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to earn as much money as possible for myself and my match.;Try to help my match if it did not cost me anything.""
+}",001,25,Female,1,Try to earn as much money as possible for myself.;Try to earn as much money as possible for myself and my match.;Try to help my match if it did not cost me anything.
+8,"{
+    ""subjectID"": ""1912-10"",
+    ""age"": 23,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 15.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to help my match even at my own expense.;""
+}",1912-10,23,Male,1,Try to earn as much money as possible for me and my match.;Try to help my match even at my own expense.;
+9,"{
+    ""subjectID"": ""903-07-#011"",
+    ""age"": 24,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 25.0,
+    ""strategy"": ""Try to choose equal payoff;Try to help my match if it did not cost me anything;Try to help my match even at my own expense;Try to earn as much money as possible for myself and my match.;""
+}",903-07-#011,24,Female,1,Try to choose equal payoff;Try to help my match if it did not cost me anything;Try to help my match even at my own expense;Try to earn as much money as possible for myself and my match.;
+10,"{
+    ""subjectID"": 1001,
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 100.0,
+    ""strategy"": ""Try to earn as much money as possible for myself. Try to help my match if it did not cost me anything.""
+}",1001,28,Female,0,Try to earn as much money as possible for myself. Try to help my match if it did not cost me anything.
+11,"{
+    ""subjectID"": 1001,
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",1001,22,Female,1,Try to help my match if it did not cost me anything.
+12,"{
+    ""subjectID"": ""0518026-4"",
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",0518026-4,22,Female,1,Try to earn as much money as possible for me and my match.
+13,"{
+    ""subjectID"": ""008"",
+    ""age"": 35,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 120.0,
+    ""strategy"": ""Try to earn as much money as possible for myself;Try to help my match if it did not cost me anything;""
+}",008,35,Female,3,Try to earn as much money as possible for myself;Try to help my match if it did not cost me anything;
+14,"{
+    ""subjectID"": 1005318,
+    ""age"": 21,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to understand the preference of my match and choose the corresponding option that would give them their preferred payoff.""
+}",1005318,21,Male,2,Try to earn as much money as possible for myself.;Try to understand the preference of my match and choose the corresponding option that would give them their preferred payoff.
+15,"{
+    ""subjectID"": ""0510031-5"",
+    ""age"": 32,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 0,
+    ""donation"": 100.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;""
+}",0510031-5,32,Male,0,Try to earn as much money as possible for myself.;
+16,"{
+    ""subjectID"": 1,
+    ""age"": 27,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 2,
+    ""donation"": [],
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",1,27,Male,2,Try to earn as much money as possible for me and my match.
+17,"{
+    ""subjectID"": ""050325PQ-6"",
+    ""age"": 20,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": {""donated"": false, ""amount"": 0.0},
+    ""strategy"": ""Try to earn as much money as possible for myself.; Try to help my match if it did not cost me anything.;""
+}",050325PQ-6,20,Female,3,Try to earn as much money as possible for myself.; Try to help my match if it did not cost me anything.;
+18,"{
+    ""subjectID"": ""010"",
+    ""age"": 34,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 0,
+    ""donation"": null,
+    ""strategy"": ""Try to earn as much money as possible for myself without regard for my match.""
+}",010,34,Male,0,Try to earn as much money as possible for myself without regard for my match.
+19,"{
+    ""subjectID"": ""130-57-0388"",
+    ""age"": 33,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 20.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;Try to help my match even at my own expense.""
+}",130-57-0388,33,Female,1,Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;Try to help my match even at my own expense.
+20,"{
+    ""subjectID"": ""201030001-1"",
+    ""age"": 18,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match. Try to choose equal payoff. Try to help my match if it did not cost me anything.""
+}",201030001-1,18,Male,1,Try to earn as much money as possible for me and my match. Try to choose equal payoff. Try to help my match if it did not cost me anything.
+21,"{
+    ""subjectID"": ""041106P13-13"",
+    ""age"": 26,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 75.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.;Try to help my match even at my own expense.""
+}",041106P13-13,26,Female,3,Try to help my match if it did not cost me anything.;Try to help my match even at my own expense.
+22,"{
+    ""subjectID"": ""2018006006-10"",
+    ""age"": 34,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 100.0,
+    ""strategy"": ""Try to earn as much money for myself as possible.; Try to choose equal payoff for myself and my match if it did not cost me anything.;""
+}",2018006006-10,34,Male,1,Try to earn as much money for myself as possible.; Try to choose equal payoff for myself and my match if it did not cost me anything.;
+23,"{
+    ""subjectID"": 101,
+    ""age"": 21,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 15.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match. Try to choose equal payoff. Try to help my match if it did not cost me anything.""
+}",101,21,Female,1,Try to earn as much money as possible for me and my match. Try to choose equal payoff. Try to help my match if it did not cost me anything.
+24,"{
+    ""subjectID"": ""016"",
+    ""age"": 32,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 0,
+    ""donation"": 100.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",016,32,Male,0,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+25,"{
+    ""subjectID"": 1001,
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",1001,25,Female,1,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+26,"{
+    ""subjectID"": 1,
+    ""age"": 32,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 50.0,
+    ""strategy"": [""Try to earn as much money as possible for me and my match."", ""Try to help my match if it did not cost me anything.""]
+}",1,32,Female,2,"['Try to earn as much money as possible for me and my match.', 'Try to help my match if it did not cost me anything.']"
+27,"{
+    ""subjectID"": ""050401-16"",
+    ""age"": 21,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to choose equal payoff.;""
+}",050401-16,21,Male,1,Try to earn as much money as possible for me and my match.;Try to choose equal payoff.;
+28,"{
+    ""subjectID"": ""P-008"",
+    ""age"": 27,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 10.0,
+    ""strategy"": [""Try to earn as much money as possible for myself."", ""Try to help my match if it did not cost me anything.""]
+}",P-008,27,Female,2,"['Try to earn as much money as possible for myself.', 'Try to help my match if it did not cost me anything.']"
+29,"{
+    ""subjectID"": ""001"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to help my matches if it did not cost me anything.""
+}",001,25,Female,2,Try to help my matches if it did not cost me anything.
+30,"{
+  ""subjectID"": 1,
+  ""age"": 25,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": 50.0,
+  ""strategy"": ""Try to earn as much money as possible for myself.;Try to earn as much money as possible for me and my match.""
+}",1,25,Female,2,Try to earn as much money as possible for myself.;Try to earn as much money as possible for me and my match.
+31,"{
+    ""subjectID"": ""P-20"",
+    ""age"": 27,
+    ""gender"": ""Non-binary"",
+    ""numberSiblings"": 0,
+    ""donation"": 200.0,
+    ""strategy"": ""I tried to maximize the sum of my and my match's payoffs.;I tried to equalize my and my match's payoffs.""
+}",P-20,27,Non-binary,0,I tried to maximize the sum of my and my match's payoffs.;I tried to equalize my and my match's payoffs.
+32,"{
+    ""subjectID"": 1002,
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",1002,29,Female,1,Try to earn as much money as possible for me and my match.
+33,"{
+    ""subjectID"": ""05162023-2-0001"",
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.""
+}",05162023-2-0001,22,Female,0,Try to earn as much money as possible for myself.
+34,"{
+    ""subjectID"": 100011,
+    ""age"": 32,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.; Try to help my match if it did not cost me anything.""
+}",100011,32,Male,1,Try to earn as much money as possible for me and my match.; Try to help my match if it did not cost me anything.
+35,"{
+    ""subjectID"": ""001"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": [""Try to earn as much money as possible for myself."", ""Try to earn as much money as possible for my match."", ""Try to choose equal payoff.""]
+}",001,25,Female,1,"['Try to earn as much money as possible for myself.', 'Try to earn as much money as possible for my match.', 'Try to choose equal payoff.']"
+36,"{
+    ""subjectID"": ""2023X-001-001"",
+    ""age"": 21,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",2023X-001-001,21,Female,2,Try to earn as much money as possible for me and my match.
+37,"{
+    ""subjectID"": ""050318FX-3"",
+    ""age"": 21,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""My goal in each game is to earn as much money as possible for myself.;In games where my decision did not affect my match's payoff, try to choose the option with the smallest number.""
+}",050318FX-3,21,Male,0,"My goal in each game is to earn as much money as possible for myself.;In games where my decision did not affect my match's payoff, try to choose the option with the smallest number."
+38,"{
+    ""subjectID"": 10033,
+    ""age"": 19,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 29.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",10033,19,Female,1,Try to earn as much money as possible for me and my match.
+39,"{
+  ""subjectID"": 10031003,
+  ""age"": 21,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": 0.0,
+  ""strategy"": ""Try to earn as much money as possible for myself.""
+}",10031003,21,Female,2,Try to earn as much money as possible for myself.
+40,"{
+  ""subjectID"": ""P-001"",
+  ""age"": 28,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 1,
+  ""donation"": 0.0,
+  ""strategy"": ""Try to help my match if it did not cost me anything; try to earn as much money as possible for me and my match.""
+}",P-001,28,Female,1,Try to help my match if it did not cost me anything; try to earn as much money as possible for me and my match.
+41,"{
+    ""subjectID"": ""0503123-12"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": false,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to choose equal payoff for me and my match.""
+}",0503123-12,25,Female,0,Try to earn as much money as possible for myself.;Try to choose equal payoff for me and my match.
+42,"{
+    ""subjectID"": ""050323-15-001"",
+    ""age"": 21,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything;Try to earn as much money as possible for me and my match.""
+}",050323-15-001,21,Male,1,Try to help my match if it did not cost me anything;Try to earn as much money as possible for me and my match.
+43,"{
+    ""subjectID"": ""P0001"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",P0001,28,Female,1,Try to earn as much money as possible for me and my match.
+44,"{
+    ""subjectID"": ""003"",
+    ""age"": 40,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 2,
+    ""donation"": 100.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",003,40,Male,2,Try to help my match if it did not cost me anything.
+45,"{
+    ""subjectID"": ""99989931-4cfd-4765-bffd-91dff660c7b5"",
+    ""age"": 50,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to choose equal payoff.; Try to help my match if it did not cost me anything.;""
+}",99989931-4cfd-4765-bffd-91dff660c7b5,50,Female,0,Try to choose equal payoff.; Try to help my match if it did not cost me anything.;
+46,"{
+    ""subjectID"": 10523,
+    ""age"": 34,
+    ""gender"": ""Non-binary"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself; Try to earn as much money as possible for me and my match.;""
+}",10523,34,Non-binary,0,Try to earn as much money as possible for myself; Try to earn as much money as possible for me and my match.;
+47,"{
+    ""subjectID"": ""1001010010-3"",
+    ""age"": 40,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 200.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",1001010010-3,40,Female,0,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+48,"{
+    ""subjectID"": ""0002"",
+    ""age"": 40,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 50.0,
+    ""strategy"": ""My strategy was to try and earn as much money as possible for myself.""
+}",0002,40,Female,2,My strategy was to try and earn as much money as possible for myself.
+49,"{
+    ""subjectID"": ""020"",
+    ""age"": 38,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": [""Try to earn as much money as possible for myself."", ""Try to help my match if it did not cost me anything.""]
+}",020,38,Male,1,"['Try to earn as much money as possible for myself.', 'Try to help my match if it did not cost me anything.']"
+50,"{
+    ""subjectID"": ""020"",
+    ""age"": 21,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 150.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to choose equal payoff.;""
+}",020,21,Female,0,Try to earn as much money as possible for me and my match.;Try to choose equal payoff.;
+51,"{
+    ""subjectID"": ""001"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": [""Try to earn as much money as possible for me and my match.""]
+}",001,28,Female,1,['Try to earn as much money as possible for me and my match.']
+52,"{
+  ""subjectID"": ""044202-2"",
+  ""age"": 23,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 0,
+  ""donation"": 0.0,
+  ""strategy"": ""Help my match if it did not cost me anything.""
+}",044202-2,23,Female,0,Help my match if it did not cost me anything.
+53,"{
+    ""subjectID"": ""003"",
+    ""age"": 27,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",003,27,Male,1,Try to earn as much money as possible for me and my match.
+54,"{
+    ""subjectID"": ""400-11-000-014"",
+    ""age"": 23,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;""
+}",400-11-000-014,23,Female,1,Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;
+55,"{
+    ""subjectID"": 10001,
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",10001,25,Female,0,Try to help my match if it did not cost me anything.
+56,"{
+    ""subjectID"": ""050326PQ-11"",
+    ""age"": 18,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",050326PQ-11,18,Female,2,Try to help my match if it did not cost me anything.
+57,"{
+    ""subjectID"": ""P-001"",
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 15.0,
+    ""strategy"": ""Try to earn as much money as possible for myself; Try to earn as much money as possible for me and my match;""
+}",P-001,22,Female,2,Try to earn as much money as possible for myself; Try to earn as much money as possible for me and my match;
+58,"{
+    ""subjectID"": ""1059-9"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to choose equal payoff.;Try to help my match if it did not cost me anything.""
+}",1059-9,29,Female,2,Try to earn as much money as possible for myself.;Try to choose equal payoff.;Try to help my match if it did not cost me anything.
+59,"{
+    ""subjectID"": ""1995275495"",
+    ""age"": 21,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it does not cost me anything.;Try to earn as much money as possible.""
+}",1995275495,21,Male,2,Try to help my match if it does not cost me anything.;Try to earn as much money as possible.
+60,"{
+    ""subjectID"": 1,
+    ""age"": 24,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself and my match.""
+}",1,24,Male,1,Try to earn as much money as possible for myself and my match.
+61,"{
+    ""subjectID"": ""2024-09-04-17:35:56-1"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 25.0,
+    ""strategy"": [""Try to earn as much money as possible for myself."", ""Try to earn as much money as possible for me and my match."", ""Try to choose equal payoff."", ""Try to help my match if it did not cost me anything."", ""Tried to help my match even at my own expense.""]
+}",2024-09-04-17:35:56-1,25,Female,2,"['Try to earn as much money as possible for myself.', 'Try to earn as much money as possible for me and my match.', 'Try to choose equal payoff.', 'Try to help my match if it did not cost me anything.', 'Tried to help my match even at my own expense.']"
+62,"{
+    ""subjectID"": ""2023-10-03-13:28:47.715386-1107855686"",
+    ""age"": 24,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn more money for myself.""
+}",2023-10-03-13:28:47.715386-1107855686,24,Female,1,Try to earn more money for myself.
+63,"{
+    ""subjectID"": ""12506300-4"",
+    ""age"": 37,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 4,
+    ""donation"": 100,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",12506300-4,37,Female,4,Try to help my match if it did not cost me anything.
+64,"{
+    ""subjectID"": ""2023-10-14-18:53:58 #40"",
+    ""age"": 28,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 2,
+    ""donation"": 20.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to choose equal payoff.;""
+}",2023-10-14-18:53:58 #40,28,Male,2,Try to earn as much money as possible for me and my match.;Try to choose equal payoff.;
+65,"{
+    ""subjectID"": ""0678010-19"",
+    ""age"": 20,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself without hurting others;Try to help my match as much as possible even if I had to sacrifice my own payoff.""
+}",0678010-19,20,Female,2,Try to earn as much money as possible for myself without hurting others;Try to help my match as much as possible even if I had to sacrifice my own payoff.
+66,"{
+    ""subjectID"": ""001"",
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.;Try to earn as much money as possible for me and my match.""
+}",001,22,Female,0,Try to help my match if it did not cost me anything.;Try to earn as much money as possible for me and my match.
+67,"{
+    ""subjectID"": ""20105001-5"",
+    ""age"": 28,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything; try to earn as much money as possible for myself.;""
+}",20105001-5,28,Male,2,Try to help my match if it did not cost me anything; try to earn as much money as possible for myself.;
+68,"{
+    ""subjectID"": ""05062023-3"",
+    ""age"": 27,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 20.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to choose equal payoff.;""
+}",05062023-3,27,Male,1,Try to earn as much money as possible for myself.;Try to choose equal payoff.;
+69,"{
+    ""subjectID"": ""P-22"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",P-22,29,Female,0,Try to help my match if it did not cost me anything.
+70,"{
+    ""subjectID"": ""009"",
+    ""age"": 27,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 0,
+    ""donation"": 10.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;"" 
+}",009,27,Male,0,Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;
+71,"{
+    ""subjectID"": ""025"",
+    ""age"": 34,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything;Try to earn as much money as possible for myself.""
+}",025,34,Female,3,Try to help my match if it did not cost me anything;Try to earn as much money as possible for myself.
+72,"{
+    ""subjectID"": ""001"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": [""Try to earn as much money as possible for me and my match.""]
+}",001,25,Female,1,['Try to earn as much money as possible for me and my match.']
+73,"{
+    ""subjectID"": ""2307501001"",
+    ""age"": 35,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.""
+}",2307501001,35,Female,1,Try to earn as much money as possible for myself.
+74,"{
+    ""subjectID"": 1001,
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.;Try to earn as much money as possible for me and my match.""
+}",1001,25,Female,1,Try to help my match if it did not cost me anything.;Try to earn as much money as possible for me and my match.
+75,"{
+    ""subjectID"": ""001"",
+    ""age"": 22,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.""
+}",001,22,Female,3,Try to earn as much money as possible for me and my match.
+76,"{
+    ""subjectID"": ""050311PQ-5"",
+    ""age"": 23,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;""
+}",050311PQ-5,23,Female,0,Try to earn as much money as possible for myself.;
+77,"{
+    ""subjectID"": ""P-001"",
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 15.0,
+    ""strategy"": ""My game strategy is to choose an equal payoff.""
+}",P-001,28,Female,2,My game strategy is to choose an equal payoff.
+78,"{
+  ""subjectID"": 10051,
+  ""age"": 29,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": 50,
+  ""strategy"": ""My strategy was to earn as much money as possible for myself.;My strategy was to earn as much money as possible for me and my match.;""
+}",10051,29,Female,2,My strategy was to earn as much money as possible for myself.;My strategy was to earn as much money as possible for me and my match.;
+79,"{
+    ""subjectID"": ""001-1"",
+    ""age"": 30,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;""
+}",001-1,30,Male,1,Try to earn as much money as possible for me and my match.;Try to help my match if it did not cost me anything.;
+80,"{
+    ""subjectID"": ""050506PQ-10"",
+    ""age"": 25,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""My strategy was to earn as much money as possible for myself.;My strategy was to help others even at my own expense.""
+}",050506PQ-10,25,Female,1,My strategy was to earn as much money as possible for myself.;My strategy was to help others even at my own expense.
+81,"{
+  ""subjectID"": ""05032024-5"",
+  ""age"": 32,
+  ""gender"": ""Female"",
+  ""numberSiblings"": 2,
+  ""donation"": 0.0,
+  ""strategy"": ""Try to earn as much money as possible for myself.""
+}",05032024-5,32,Female,2,Try to earn as much money as possible for myself.
+82,"{
+    ""subjectID"": 10001,
+    ""age"": 21,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 2,
+    ""donation"": 1000.0,
+    ""strategy"": ""Try to earn as much money as possible for myself. Try to help my match if it did not cost me anything.""
+}",10001,21,Female,2,Try to earn as much money as possible for myself. Try to help my match if it did not cost me anything.
+83,"{
+    ""subjectID"": 1001,
+    ""age"": 28,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 25.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.""
+}",1001,28,Female,1,Try to help my match if it did not cost me anything.
+84,"{
+    ""subjectID"": ""05002030-4"",
+    ""age"": 31,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 80.0,
+    ""strategy"": ""Earn as much money as possible for self.;Help my match if it did not cost me anything.;""
+}",05002030-4,31,Female,1,Earn as much money as possible for self.;Help my match if it did not cost me anything.;
+85,"{
+    ""subjectID"": 2010508,
+    ""age"": 19,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 0,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for me and my match.;""
+}",2010508,19,Female,0,Try to earn as much money as possible for me and my match.;
+86,"{
+    ""subjectID"": ""091823PQ-11"",
+    ""age"": 25,
+    ""gender"": ""Male"",
+    ""numberSiblings"": 1,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",091823PQ-11,25,Male,1,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+87,"{
+    ""subjectID"": 3,
+    ""age"": 26,
+    ""gender"": ""Other"",
+    ""numberSiblings"": 2,
+    ""donation"": 0.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.""
+}",3,26,Other,2,Try to earn as much money as possible for myself.
+88,"{
+    ""subjectID"": ""101"",
+    ""age"": 29,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 50.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;""
+}",101,29,Female,3,Try to earn as much money as possible for myself.;Try to help my match if it did not cost me anything.;
+89,"{
+    ""subjectID"": ""002"",
+    ""age"": 42,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 3,
+    ""donation"": 150.0,
+    ""strategy"": ""Try to earn as much money as possible for myself.""
+}",002,42,Female,3,Try to earn as much money as possible for myself.
+90,"{
+    ""subjectID"": 1001,
+    ""age"": 23,
+    ""gender"": ""Female"",
+    ""numberSiblings"": 1,
+    ""donation"": 100.0,
+    ""strategy"": ""Try to help my match if it did not cost me anything.;Try to earn as much money as possible for myself.""
+}",1001,23,Female,1,Try to help my match if it did not cost me anything.;Try to earn as much money as possible for myself.
